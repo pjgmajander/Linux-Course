@@ -1,4 +1,4 @@
-# H1 System configuration management report - “Viisikko”
+# H1 Linux-server-course ”Oma linux"
 
 Tämä harjoitustyö on osa Haaga-Helia ammattikorkeakoulun kurssia ”Linux palvelimet”. 
 Tehtävänannot löydät kurssin opettajan verkkosivustolta: https://terokarvinen.com/linux-palvelimet/
