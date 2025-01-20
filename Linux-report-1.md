@@ -28,6 +28,15 @@ P채채tin luoda virtuaalikoneen Vagrantin avulla, sill채 en tarvitse graafista k�
 Luotu projektille kansio 
 ![kuva](https://github.com/user-attachments/assets/30a9b53c-e0ce-43b3-a675-03b78c2b9de2)
 
+Luotu vagrant-file
+
+![kuva](https://github.com/user-attachments/assets/cc3b151a-889b-4ef2-90f7-4b1309ca802b)
+
+Muokattu vagrant-file채 notepadissa
+![kuva](https://github.com/user-attachments/assets/4b993b8d-0eef-4539-8874-02a778024e3a)
+
+![kuva](https://github.com/user-attachments/assets/7c3180e2-3cc0-4a6c-88ad-622709ee3b7a)
+
 
 
 # Teht채v채 k)	
