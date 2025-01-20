@@ -40,8 +40,8 @@ Käyttöjärjestelmä: `Microsoft Windows 11 Home`
   4. Vapaus jakaa itse modifioitua versiota ohjelmistosta muiden käyttöön. Tämäkin edellyttää avointa pääsyä lähdekoodiin.
 
 
-# Tehtävä a)
-##### Linuxin asentaminen
+# Tehtävä a) Linuxin asentaminen
+##### "Asenna Linux virtuaalikoneeseen"
 
 Päätin luoda virtuaalikoneen Vagrantin avulla, sillä en tarvitse graafista käyttöliittymää mihinkään. Vagrantin asennus täältä: https://developer.hashicorp.com/vagrant/install
 
@@ -74,13 +74,18 @@ Määritetty virtuaalikoneelle 1GB RAMia ja 4 prosessoria.
   vb.memory = "1024"
   vb.cpus = 4`
 
-Provisionoitu virtuaalikoneelle muutama sovellus, jotka asentuivat automaattisesti kun virtuaalikone käynnistettiin. Nämä asennuskäskyt ovat sikäli idempotentteja, että ne aktivoituvat vain kun virtuaalikone käynnistetään ensimmäisen kerran. Toki `vagrant reload` komennolla ne voidaan suorittaa uudestaan.
+Provisionoitu virtuaalikoneelle muutama sovellus, jotka asentuivat automaattisesti kun virtuaalikone käynnistettiin. (Nämä asennuskäskyt ovat sikäli idempotentteja, että ne aktivoituvat vain kun virtuaalikone käynnistetään ensimmäisen kerran. Toki `vagrant reload` komennolla ne voidaan suorittaa uudestaan.) Samassa yhteydessä päivitetty ensiksi Linuxin paketinhallintatyökalu apt-get. Asentamani sovellukset ovat cowsay, grep, curl, nano ja ufw.
 
-Muu muisti on dynaamisesti allokoitavaa 100Gb asti:
+`skynet.vm.provision "shell", inline: <<-SHELL
+ apt-get update
+ apt-get install -y cowsay grep curl nano ufw`
+
+
+Muu muisti on dynaamisesti allokoitavaa 100Gb asti (Huom. tätä ei voi tarkistaa Virtualboxin käyttöliittymästä ennen kuin virtuaalikone on käynnistetty):
 
 ![kuva](https://github.com/user-attachments/assets/6f6bed37-228e-4aba-84c6-0fd6b560f655)
 
-Luotu jaettu kansio
+Luotu isäntäkoneen työpöydälle vagrantfilessä määritelty jaettu kansio "vatican_archives"
 
 ![kuva](https://github.com/user-attachments/assets/439f1acf-4c2f-4fc4-8d42-0267d108956b)
 
@@ -97,9 +102,8 @@ Virtuaalikone näkyy nyt myös Oracle VM VirtualBox Managerissa:
 ![kuva](https://github.com/user-attachments/assets/a3e07acb-955b-4ba2-b730-c55e4c20d307)
 
 
-
-# Tehtävä k)	
-##### Lempiohjelmani
+# Tehtävä k) Vapaaehtoinen bonus
+##### "Suosikkiohjelmani Linuxilla. Tee ja raportoi jokin yksinkertainen toimenpide haluamallasi Linux-ohjelmalla."
 
 Ykisinkertaisin lempiohjelmani on cowsay. Esimerkiksi komennolla `cowsay hello world` tulostuu komentoriville lehmä, jonka puhekuplassa lukee "hello world". 
 
