@@ -1,4 +1,4 @@
-# H1 Linux-server-course ”Oma linux"
+# H1 Linux server course report ”Oma linux"
 
 Tämä harjoitustyö on osa Haaga-Helia ammattikorkeakoulun kurssia ”Linux palvelimet”. 
 Tehtävänannot löydät kurssin opettajan verkkosivustolta: https://terokarvinen.com/linux-palvelimet/
