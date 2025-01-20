@@ -105,7 +105,7 @@ Virtuaalikone näkyy nyt myös Oracle VM VirtualBox Managerissa:
 # Tehtävä k) Vapaaehtoinen bonus
 ##### "Suosikkiohjelmani Linuxilla. Tee ja raportoi jokin yksinkertainen toimenpide haluamallasi Linux-ohjelmalla."
 
-Ykisinkertaisin lempiohjelmani on cowsay. Esimerkiksi komennolla `cowsay hello world` tulostuu komentoriville lehmä, jonka puhekuplassa lukee "hello world". 
+Yksinkertaisin lempiohjelmani on cowsay. Esimerkiksi komennolla `cowsay hello world` tulostuu komentoriville lehmä, jonka puhekuplassa lukee "hello world". 
 
 ![kuva](https://github.com/user-attachments/assets/f180e3e7-fb31-4d39-8831-9d3ee3f24b10)
 
