@@ -19,6 +19,11 @@ Käyttöjärjestelmä: `Microsoft Windows 11 Home`
 ##### Tiivistelmä Tero Karvisen materiaaleista.
 
 -Hyvä harjoitusraportti on mahdollisimman täsmällinen, helppolukuinen ja toistettava. Se sisältää myös lähdeviittauksia tiedolle
+-Myös kaikkien harhapolkujen on oltava toistettavissa raporttia seuratessa
+-Mahdollisimman täsmällinen
+-Menneessä aikamuodossa kirjoitettu
+-Raportilla on järkevä rakenne, ja sen lukeminen on helppoa
+-Raportissa ei saa sepittää, plagioida tai rikkoa muutenkaan lakia (esim. tekijänoikeuksia ja salassapitovelvollisuutta)
 
 #### Tiivistelmä Gnu Softwaren materiaaleista
 
