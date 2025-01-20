@@ -45,15 +45,15 @@ Käyttöjärjestelmä: `Microsoft Windows 11 Home`
 
 Päätin luoda virtuaalikoneen Vagrantin avulla, sillä en tarvitse graafista käyttöliittymää mihinkään. Vagrantin asennus täältä: https://developer.hashicorp.com/vagrant/install
 
-Luotu projektille kansio 
+Luotu projektille kansio "linux-server" komentorivin kautta.
 
 ![kuva](https://github.com/user-attachments/assets/30a9b53c-e0ce-43b3-a675-03b78c2b9de2)
 
-Luotu vagrant-file
+Luotu kansioon vagrant-file, jossa virtuaalikone määritellään
 
 ![kuva](https://github.com/user-attachments/assets/cc3b151a-889b-4ef2-90f7-4b1309ca802b)
 
-Muokattu vagrant-fileä notepadissa
+Muokattu vagrant-fileä notepadissa. Määritetty staattinen ip-osoite, ja uudelleenohjattu isäntäkoneen portti 1235 virtuaalikoneen porttiin 80 (HTTP). Tarkastin portin olevan vapaa kirjoittamalla komentoriviin ´netstat -ano | findstr 1235´
 
 ![kuva](https://github.com/user-attachments/assets/6e47254e-354b-4bbd-ab66-030caa0b3934)
 
