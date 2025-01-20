@@ -53,7 +53,33 @@ Luotu kansioon vagrant-file, jossa virtuaalikone määritellään
 
 ![kuva](https://github.com/user-attachments/assets/cc3b151a-889b-4ef2-90f7-4b1309ca802b)
 
-Muokattu vagrant-fileä notepadissa. Määritetty staattinen ip-osoite, ja uudelleenohjattu isäntäkoneen portti 1235 virtuaalikoneen porttiin 80 (HTTP). Tarkastin portin olevan vapaa kirjoittamalla komentoriviin ´netstat -ano | findstr 1235´
+Muokattu vagrant-fileä notepadissa, selitykset alla:
+
+Määritetty staattinen ip-osoite, ja uudelleenohjattu isäntäkoneen portti 1235 virtuaalikoneen http-porttiin 80. 
+`skynet.vm.network "private_network", ip: "192.168.74.12"
+ skynet.vm.network "forwarded_port", guest: 80, host: 1235`
+(Tarkastin portin olevan vapaa kirjoittamalla isäntäkoneen komentoriviin: `netstat -ano | findstr 1235` eli etsin portin 1235 tilatietoja).
+
+Määritetty virtuaalikoneelle host-name
+`skynet.vm.hostname = "SKYNET"`
+
+Määritetty jaettu kansio isäntäkoneen ja virtuaalikoneen välillä. Kyseiseen kansioon "vatican_archives" siirtämäni tiedostot näkyvät virtuaalikoneellani polussa /var/www/html.
+`skynet.vm.synced_folder "./vatican_archives", "/var/www/html"`
+
+Määritetty virtuaalikoneelle 1GB RAMia ja 4 prosessoria.
+
+`skynet.vm.provider "virtualbox" do |vb|
+  vb.memory = "1024"
+  vb.cpus = 4`
+
+  
+
+Muu muisti on kiinteästi allokoitavaa 100Gb asti:
+
+![kuva](https://github.com/user-attachments/assets/6f6bed37-228e-4aba-84c6-0fd6b560f655)
+
+
+
 
 ![kuva](https://github.com/user-attachments/assets/6e47254e-354b-4bbd-ab66-030caa0b3934)
 
