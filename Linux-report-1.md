@@ -18,9 +18,16 @@ Käyttöjärjestelmä: `Microsoft Windows 11 Home`
 # Tehtävä X) 
 ##### Tiivistelmä Tero Karvisen materiaaleista.
 
-Neljä vapautta
+-Hyvä harjoitusraportti on mahdollisimman täsmällinen, helppolukuinen ja toistettava. Se sisältää myös lähdeviittauksia tiedolle
 
+#### Tiivistelmä Gnu Softwaren materiaaleista
 
+-Vapaa ohjelmisto tarkoittaa ohjelmistoa, jota käyttäjien on mahdollista suorittaa, kopioida, levittää, opiskella, muuttaa ja kehittää
+-Neljä perusvapautta
+  1. Vapaus suorittaa ohjelma mitä tahansa käyttötarkoitusta varten
+  2. Vapaus opiskella ohjelmiston toimintalogiikkaa ja valjastaa se räätälöityyn käyttöön. Edellyttää avointa lähdekoodia.
+  3. Vapaus jakaa alkuperäistä ohjelmistoa muiden käyttöön
+  4. Vapaus jakaa itse modifioitua versiota ohjelmistosta muiden käyttöön. Tämäkin edellyttää avointa pääsyä lähdekoodiin.
 
 
 # Tehtävä a)
