@@ -18,6 +18,10 @@ Käyttöjärjestelmä: `Microsoft Windows 11 Home`
 # Tehtävä X) 
 ##### Tiivistelmä Tero Karvisen materiaaleista.
 
+Neljä vapautta
+
+
+
 
 # Tehtävä a)
 ##### Linuxin asentaminen
@@ -57,15 +61,8 @@ Cowsay
 ![kuva](https://github.com/user-attachments/assets/f180e3e7-fb31-4d39-8831-9d3ee3f24b10)
 
 
-
-
 ## Lähteet
-Karvinen, T. 2021. Run Salt Command Locally, luettavissa: https://terokarvinen.com/2021/salt-run-command-locally/
-
-Karvinen, T. 2018. Salt Quickstart – Salt Stack Master and Slave on Ubuntu Linux, luettavissa: https://terokarvinen.com/2018/03/28/salt-quickstart-salt-stack-master-and-slave-on-ubuntu-linux/
 
 Karvinen, T. 2006. Raportin kirjoittaminen, luettavissa: https://terokarvinen.com/2006/06/04/raportin-kirjoittaminen-4/
 
-Kärkkäinen, T. 2003. Jyväskylän yliopiston luentokalvot, Formaalit menetelmät – Propositiolaskennan kertausta, luettavissa: http://users.jyu.fi/~tka/opetus/kevat03/kalvo7.pdf. Luettu 30.10.2024. 
-
-VMware, Inc. 2024. SaltStack Salt Documentation (Release 3007.01), s. 2-5, luettavissa: https://docs.saltproject.io/en/pdf/Salt-master.pdf. Luettu: 29.10.2024. 
+GNU Operating System. 2024. What is free software? luettavissa: https://www.gnu.org/philosophy/free-sw.html#four-freedoms
