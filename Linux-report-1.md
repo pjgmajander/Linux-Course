@@ -19,13 +19,13 @@ Käyttöjärjestelmä: `Microsoft Windows 11 Home`
 ##### Tiivistelmä Tero Karvisen materiaaleista.
 
 
-
 # Tehtävä a)
 ##### Linuxin asentaminen
 
 Päätin luoda virtuaalikoneen Vagrantin avulla, sillä en tarvitse graafista käyttöliittymää mihinkään. Vagrantin asennus täältä: https://developer.hashicorp.com/vagrant/install
 
 Luotu projektille kansio 
+
 ![kuva](https://github.com/user-attachments/assets/30a9b53c-e0ce-43b3-a675-03b78c2b9de2)
 
 Luotu vagrant-file
@@ -33,14 +33,28 @@ Luotu vagrant-file
 ![kuva](https://github.com/user-attachments/assets/cc3b151a-889b-4ef2-90f7-4b1309ca802b)
 
 Muokattu vagrant-fileä notepadissa
-![kuva](https://github.com/user-attachments/assets/4b993b8d-0eef-4539-8874-02a778024e3a)
 
-![kuva](https://github.com/user-attachments/assets/7c3180e2-3cc0-4a6c-88ad-622709ee3b7a)
+![kuva](https://github.com/user-attachments/assets/6e47254e-354b-4bbd-ab66-030caa0b3934)
 
+Luotu jaettu kansio
+
+![kuva](https://github.com/user-attachments/assets/439f1acf-4c2f-4fc4-8d42-0267d108956b)
+
+Käynnistetty vagrant
+
+![kuva](https://github.com/user-attachments/assets/8fda289b-c465-4855-b880-03984ce370e3)
+
+Tarkistettu os
+
+![kuva](https://github.com/user-attachments/assets/897572d4-0ac1-431d-9a07-0c42a85410fc)
 
 
 # Tehtävä k)	
 ##### Lempiohjelmani
+
+Cowsay
+
+![kuva](https://github.com/user-attachments/assets/f180e3e7-fb31-4d39-8831-9d3ee3f24b10)
 
 
 
