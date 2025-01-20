@@ -53,7 +53,9 @@ Luotu kansioon vagrant-file, jossa virtuaalikone määritellään
 
 ![kuva](https://github.com/user-attachments/assets/cc3b151a-889b-4ef2-90f7-4b1309ca802b)
 
-Muokattu vagrant-fileä notepadissa, selitykset alla:
+Muokattu vagrant-fileä notepadissa, selitykset kuvan alla
+
+![kuva](https://github.com/user-attachments/assets/6e47254e-354b-4bbd-ab66-030caa0b3934)
 
 Määritetty staattinen ip-osoite, ja uudelleenohjattu isäntäkoneen portti 1235 virtuaalikoneen http-porttiin 80. 
 `skynet.vm.network "private_network", ip: "192.168.74.12"
@@ -72,16 +74,11 @@ Määritetty virtuaalikoneelle 1GB RAMia ja 4 prosessoria.
   vb.memory = "1024"
   vb.cpus = 4`
 
-  
+Provisionoitu virtuaalikoneelle muutama sovellus, jotka asentuivat automaattisesti kun virtuaalikone käynnistettiin. Nämä asennuskäskyt ovat sikäli idempotentteja, että ne aktivoituvat vain kun virtuaalikone käynnistetään ensimmäisen kerran. Toki `vagrant reload` komennolla ne voidaan suorittaa uudestaan.
 
-Muu muisti on kiinteästi allokoitavaa 100Gb asti:
+Muu muisti on dynaamisesti allokoitavaa 100Gb asti:
 
 ![kuva](https://github.com/user-attachments/assets/6f6bed37-228e-4aba-84c6-0fd6b560f655)
-
-
-
-
-![kuva](https://github.com/user-attachments/assets/6e47254e-354b-4bbd-ab66-030caa0b3934)
 
 Luotu jaettu kansio
 
@@ -91,15 +88,20 @@ Käynnistetty vagrant
 
 ![kuva](https://github.com/user-attachments/assets/8fda289b-c465-4855-b880-03984ce370e3)
 
-Tarkistettu os
+Tarkistettu, että oikea käyttöjärjestelmä asentui komennolla: `cat /etc/os-release`
 
 ![kuva](https://github.com/user-attachments/assets/897572d4-0ac1-431d-9a07-0c42a85410fc)
+
+Virtuaalikone näkyy nyt myös Oracle VM VirtualBox Managerissa:
+
+![kuva](https://github.com/user-attachments/assets/a3e07acb-955b-4ba2-b730-c55e4c20d307)
+
 
 
 # Tehtävä k)	
 ##### Lempiohjelmani
 
-Cowsay
+Ykisinkertaisin lempiohjelmani on cowsay. Esimerkiksi komennolla `cowsay hello world` tulostuu komentoriville lehmä, jonka puhekuplassa lukee "hello world". 
 
 ![kuva](https://github.com/user-attachments/assets/f180e3e7-fb31-4d39-8831-9d3ee3f24b10)
 
