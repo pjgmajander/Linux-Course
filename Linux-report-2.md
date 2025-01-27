@@ -31,12 +31,29 @@ Sitten asennettu micro komennolla ``sudo apt-get install micro -y``
 
 ![kuva](https://github.com/user-attachments/assets/b404eb04-8e84-45d3-97a6-416acb8505b9)
 
+Kokeiltu uudestaan ja oli asentunut
+
+![kuva](https://github.com/user-attachments/assets/24f5993d-ad5a-4d68-abdf-617069f025d1)
+
+
 
 
 # Tehtävä b) Apt
 ##### ""
  Asenna kolme itsellesi uutta komentoriviohjelmaa. Kokeile kutakin ohjelmaa sen pääasiallisessa käyttötarkoituksessa. Ota ruutukaappaus. 
  Kaikki terminaaliohjelmat kelpaavat, TUI (text user interface) ja CLI (command line interface). Osaatko tehdä apt-get komennon, joka asentaa nämä kolme ohjelmaa kerralla?
+
+ Asennettu kolme ohjelmaa (Neofetch, Lolcat ja Tree) komennolla ``sudo apt-get install -y lolcat tree neofetch``
+
+ ![kuva](https://github.com/user-attachments/assets/aef5f9cb-716e-42d3-a8f2-04ad69f09cd6)
+
+ Lolcat värjää tekstiä.
+ Tässä esimerkki lolcatin hyödyntämisestä komennolla ``for i in {1..50} do echo "[haluamasi viesti tähän]" | lolcat; done`` 
+ Komento tulostaa komentoriviin määrittelemäni viestin 50 iteraation ajan, ja lolcat muuntaa tulosteen kirjaviin väreihin.
+
+ ![kuva](https://github.com/user-attachments/assets/91e23653-8dfd-49a4-a7ad-a2103003bbcc)
+
+
 
  # Tehtävä c) FHS
 ##### "Asenna Linux virtuaalikoneeseen"
