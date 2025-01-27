@@ -112,6 +112,10 @@ Luotu ensiksi kaunis esimerkkitiedosto
 
 ![kuva](https://github.com/user-attachments/assets/a54075db-1429-4794-8e86-ebb46e92f9d8)
 
+Komennolla grep "cha" cha.txt tulostetaan kaikki sellaiset cha.txt -tiedoston rivit, joissa esiintyy sana "cha":
+
+![kuva](https://github.com/user-attachments/assets/83ffdc33-f754-473c-836a-e25dd76d61de)
+
 
 
 # Tehtävä e) Pipe
