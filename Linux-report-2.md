@@ -35,9 +35,6 @@ Kokeiltu uudestaan ja oli asentunut
 
 ![kuva](https://github.com/user-attachments/assets/24f5993d-ad5a-4d68-abdf-617069f025d1)
 
-
-
-
 # Tehtävä b) Apt
 ##### ""
  Asenna kolme itsellesi uutta komentoriviohjelmaa. Kokeile kutakin ohjelmaa sen pääasiallisessa käyttötarkoituksessa. Ota ruutukaappaus. 
@@ -63,31 +60,76 @@ Neofetch näyttää järjestelmätietoja kauniissa paketissa (huom, värjätty l
 
 
 
-
  # Tehtävä c) FHS
 ##### "Esittele kansiot, jotka on listattu "Command Line Basics Revisited" kappaleessa "Important directories"."
 Esittele kansiot, jotka on listattu "Command Line Basics Revisited" kappaleessa "Important directories". Näytä kuvaava esimerkki kunkin tärkeän kansion sisältämästä tiedostosta tai kansiosta. Jos kyseessä on tiedosto, näytä siitä kuvaava esimerkkirivi. Työskentele komentokehotteessa ja näytä komennot, joilla etsit esimerkit.
 
+## /
+
+Tarkistettu ensin nykyinen sijainti ``pwd``
+Tulosteen mukaan sijainti oli käyttäjän kotihakemisto, josta siirrytty juurihakemistoon komennolla ``cd /``
+Tarkistettu jälleen nykyinen hakemisto, ja se oli muuttunut juurihakemistoksi. 
+
+Juurihakemisto on kaikkien hakemistojen äiti. Kaikki muu sisältyy siihen. 
+
+![kuva](https://github.com/user-attachments/assets/eadf1542-876c-489f-b605-9e447c69e82f)
+
+## /home/
+
+Seuraavaksi siirrytty kotihakemistoon. Tähän hakemistoon listautuu kaikkien käyttäjien uniikit hakemistot. Kuvakaappauksesta voi kenties päätellä, että omassa järjestelmässäni on vain yksi käyttäjä "vagrant".
+
+![kuva](https://github.com/user-attachments/assets/f1d61621-5fa1-409a-9c47-68161803e33b)
+
+## /home/user/
+
+Seuraavaksi siirrytty vagrantin hakemistoon, josta tämän tehtävän aloitinkin. 
+Käyttäjän hakemistossa minulla on vain yksi viikonpäivät -kansio, joka sisältää 7 kansiota * 3 tekstitiedostoa, jotka loin luentotehtävänä. Tämän raportin tehtävässä b esittelen Tree komentoa, ja silloin tämä hakemistorakenne on paremmin nähtävillä.
+
+![kuva](https://github.com/user-attachments/assets/2e7df877-bd88-4c8e-b7a3-4868d124783e)
+
+## /etc/
+
+Seuraavaksi siirrytty etc -hakemistoon, joka sisältää järjestelmäasetukset ihmiselle luettavassa muodossa.
+Esimerkiksi kuvakaappauksessa ympyröityyn group -konfiguraatiotiedostoon voidaan kirjoittaa ryhmäpolitiikkoja. Tässä esimerkkikonfiguraatio: ``sudo:salasana1234:007:vagrant,user2``, missä '007' -ID:llä merkitty käyttäjäryhmä saa pääkäyttäjän oikeudet (sudo). Ryhmään kuuluvat käyttäjät vagrant sekä user2, ja ryhmä on suojattu vahvalla salasanalla.  
+
+![kuva](https://github.com/user-attachments/assets/4d08d70e-c249-4c98-974e-ecee8aa08ef6)
+
+
+## /media/
+
+Media -hakemistossa näkyy ulkoiset tallennusvälineet kuten esimerkiksi SSD-kovalevy tai USB-muistitikku. 
+Minulla siellä ei näy mitään, koska en ole liittänyt ulkoista mediaa.
+
+## /var/log/
+
+Tässä hakemistossa on kaikki järjestelmän lokitiedot.
 
 
 # Tehtävä d) The friendly M
-##### "Asenna Linux virtuaalikoneeseen"
-Näytä 2-3 kuvaavaa esimerkkiä grep-komennon käytöstä. Ohjeita löytyy 'man grep' ja tietysti verkosta.
+##### "Näytä 2-3 kuvaavaa esimerkkiä grep-komennon käytöstä. Ohjeita löytyy 'man grep' ja tietysti verkosta."
+
+Luotu ensiksi kaunis esimerkkitiedosto
+
+![kuva](https://github.com/user-attachments/assets/a54075db-1429-4794-8e86-ebb46e92f9d8)
+
+
 
 # Tehtävä e) Pipe
 ##### "Näytä esimerkki putkista (pipes, "|")."
 
 
-# Tehtävä f) Pipe
-##### "Näytä esimerkki putkista (pipes, "|")."
-Listaa testaamasi koneen rauta (‘sudo lshw -short -sanitize’). Asenna lshw tarvittaessa. Selitä ja analysoi listaus.
+# Tehtävä f) Rauta
+##### "Listaa testaamasi koneen rauta (‘sudo lshw -short -sanitize’). Asenna lshw tarvittaessa. Selitä ja analysoi listaus."
 
-g) Vapaaehtoinen: Valitse muutama rivi lokeista. Tulkitse ja analysoi.
+# Tehtävä g) Vapaaehtoinen
+##### "Valitse muutama rivi lokeista. Tulkitse ja analysoi."
 
-h) Vapaaehtoinen: Asenna jokin plugin micro-editorille ja kokeile sitä. Vaikkapa palettero, cheat tai runit.
+# Tehtävä h) Vapaaehtoinen
+##### "Asenna jokin plugin micro-editorille ja kokeile sitä. Vaikkapa palettero, cheat tai runit."
+
 
 
 ## Lähteet
 
-Karvinen, T. 2009. Command Line Basics, luettavissa: [https://terokarvinen.com/2006/06/04/raportin-kirjoittaminen-4/](https://terokarvinen.com/2009/command-line-basics-4/)
+Karvinen, T. 2009. Command Line Basics, luettavissa: https://terokarvinen.com/2009/command-line-basics-4/ 
 
