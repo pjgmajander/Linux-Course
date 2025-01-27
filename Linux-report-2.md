@@ -22,8 +22,14 @@ Käyttöjärjestelmä: `Microsoft Windows 11 Home`
 
     Karvinen 2020: Command line basics revisited (nämä komennot ja hakemistot kannattaa myös opiskella ulkoa ja harjoitella automaatiotasolle)
 
-# Tehtävä a)Micro. Asenna micro-editori.
-##### "Asenna Linux virtuaalikoneeseen"
+# Tehtävä a) Micro
+##### "Asenna Microeditori"
+
+Ensin tarkistettu onko micro asennettu komennolla ``which micro``
+Sitten päivitetty pakettivarasto ``sudo apt-get update``
+Sitten asennettu micro komennolla ``sudo apt-get install micro -y``
+
+![kuva](https://github.com/user-attachments/assets/b404eb04-8e84-45d3-97a6-416acb8505b9)
 
 
 
