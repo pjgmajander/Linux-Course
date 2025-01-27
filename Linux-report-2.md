@@ -53,11 +53,22 @@ Kokeiltu uudestaan ja oli asentunut
 
  ![kuva](https://github.com/user-attachments/assets/91e23653-8dfd-49a4-a7ad-a2103003bbcc)
 
+Tree näyttää nykyisen hakemistorakenteen jokseenkin graafisessa muodossa
+
+![kuva](https://github.com/user-attachments/assets/fd542aa4-44db-4703-a785-3d0ec7fb813f)
+
+Neofetch näyttää järjestelmätietoja kauniissa paketissa (huom, värjätty lolcatilla)
+
+![kuva](https://github.com/user-attachments/assets/11950fb5-7f9d-4602-ab65-17be1d303610)
+
+
 
 
  # Tehtävä c) FHS
-##### "Asenna Linux virtuaalikoneeseen"
+##### "Esittele kansiot, jotka on listattu "Command Line Basics Revisited" kappaleessa "Important directories"."
 Esittele kansiot, jotka on listattu "Command Line Basics Revisited" kappaleessa "Important directories". Näytä kuvaava esimerkki kunkin tärkeän kansion sisältämästä tiedostosta tai kansiosta. Jos kyseessä on tiedosto, näytä siitä kuvaava esimerkkirivi. Työskentele komentokehotteessa ja näytä komennot, joilla etsit esimerkit.
+
+
 
 # Tehtävä d) The friendly M
 ##### "Asenna Linux virtuaalikoneeseen"
@@ -78,6 +89,5 @@ h) Vapaaehtoinen: Asenna jokin plugin micro-editorille ja kokeile sitä. Vaikkap
 
 ## Lähteet
 
-Karvinen, T. 2006. Raportin kirjoittaminen, luettavissa: https://terokarvinen.com/2006/06/04/raportin-kirjoittaminen-4/
+Karvinen, T. 2009. Command Line Basics, luettavissa: [https://terokarvinen.com/2006/06/04/raportin-kirjoittaminen-4/](https://terokarvinen.com/2009/command-line-basics-4/)
 
-GNU Operating System. 2024. What is free software? luettavissa: https://www.gnu.org/philosophy/free-sw.html#four-freedoms
