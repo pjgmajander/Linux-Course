@@ -116,6 +116,11 @@ Komennolla grep "cha" cha.txt tulostetaan kaikki sellaiset cha.txt -tiedoston ri
 
 ![kuva](https://github.com/user-attachments/assets/83ffdc33-f754-473c-836a-e25dd76d61de)
 
+Komennolla voidaan etsiä sellaisia rivejä, joissa esiintyy jokin tietty merkkijono. Lipun -i avulla osumissa ei välitetä siitä, onko merkki kirjoitettu isolla vai pienellä ja --color avulla osumat värikoodataan luettavuuden parantamiseksi. Nyt käytin *.txt komennossa, ja sen avulla tulostuu kaikkien .txt -tiedostojen sisältä löytyneet osumat.
+
+![kuva](https://github.com/user-attachments/assets/6f9d51f5-0178-4401-b159-825ba6e8ec6d)
+
+
 
 
 # Tehtävä e) Pipe
