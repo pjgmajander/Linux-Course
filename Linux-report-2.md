@@ -15,12 +15,12 @@ Prosessoriarkkitehtuuri: `x86-64`
 
 Käyttöjärjestelmä: `Microsoft Windows 11 Home`
 
-# Tehtävä X) 
-##### Tiivistelmä Tero Karvisen materiaaleista.
+# Tehtävä X) Tiivistelmä Tero Karvisen materiaaleista.  
+##### (Muutama ranskalainen viiva riittää. Tässä alakohdassa ei tarvitse tehdä testejä tietokoneella. Lisää jokin oma kysymys, idea tai huomio)
 
-(Muutama ranskalainen viiva riittää. Tässä alakohdassa ei tarvitse tehdä testejä tietokoneella. Lisää jokin oma kysymys, idea tai huomio)
-
-    Karvinen 2020: Command line basics revisited (nämä komennot ja hakemistot kannattaa myös opiskella ulkoa ja harjoitella automaatiotasolle)
+- Linuxia hallitaan erilaisilla komennoilla komentorivissä
+- Linuxin käyttäjän olisi hyvä ymmärtää ero relatiivisen ja absoluuttisen hakemistopolun välillä
+- Komennot alkavat taalamerkin '$' jälkeen
 
 # Tehtävä a) Micro
 ##### "Asenna Microeditori"
@@ -121,21 +121,35 @@ Komennolla voidaan etsiä sellaisia rivejä, joissa esiintyy jokin tietty merkki
 ![kuva](https://github.com/user-attachments/assets/6f9d51f5-0178-4401-b159-825ba6e8ec6d)
 
 
-
-
 # Tehtävä e) Pipe
 ##### "Näytä esimerkki putkista (pipes, "|")."
+
+Putkien avulla komentoja voidaan putkittaa. Olen käyttänyt putkea myös aiemmissa tämän raportin tehtävissä.
+Tässä ensimmäisessä esimerkissä tulostan figlet-komennolla tekstin suurina ASCII-taide -kirjaimina, ja putken jälkeen tulevalla osalla ``lolcat`` tuloste värjäytyy. 
+
+![kuva](https://github.com/user-attachments/assets/4c0925dc-8335-4f58-865d-4a5918324215)
+
+Tämä toinen esimerkki on komennosta ``cmatrix | lolcat``.
+Cmatrix tulostaa komentoriville Matrix-elokuvasarjasta tutun animaation, jossa merkkijonot putoavat alas. Putken jälkeen lisäämäni lolcat värjää jälleen tulosteen.
+
+![kuva](https://github.com/user-attachments/assets/991c96b8-437c-4f00-8f9e-878dc8b257d0)
 
 
 # Tehtävä f) Rauta
 ##### "Listaa testaamasi koneen rauta (‘sudo lshw -short -sanitize’). Asenna lshw tarvittaessa. Selitä ja analysoi listaus."
+
+Päivitettyäni pakettivaraston ``sudo apt-get update`` asensin ohjelman lshw ``sudo apt-get install lshw -y``
+
+Suoritin tehtävänannon komennon, jolla komentoriviin tulostui järjestelmätietoja. 
+
+![kuva](https://github.com/user-attachments/assets/b2c1c660-0c64-4b79-8fe9-06f4c3087e54)
+
 
 # Tehtävä g) Vapaaehtoinen
 ##### "Valitse muutama rivi lokeista. Tulkitse ja analysoi."
 
 # Tehtävä h) Vapaaehtoinen
 ##### "Asenna jokin plugin micro-editorille ja kokeile sitä. Vaikkapa palettero, cheat tai runit."
-
 
 
 ## Lähteet
