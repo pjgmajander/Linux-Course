@@ -95,6 +95,16 @@ Korjattuani virheen, sain yhteyden viimein muodostettua
 # Tehtävä f) Curl
 ##### "Anna esimerkit 'curl -I' ja 'curl' -komennoista. Selitä 'curl -I' muutamasta näyttämästä otsakkeesta (response header), mitä ne tarkoittavat."
 
+Komento ``curl`` tekee HTTP-pyynnön, ja lataa koko verkkosivun sisältöineen
+
+![kuva](https://github.com/user-attachments/assets/ccd0cfe4-cc82-4fbc-bd97-7158f634e79b)
+
+Käyttämällä ``-I`` -parametria HTTP-pyyntö hakee vain otsikot, mikä on hyödyllistä metatietojen tarkastelussa.
+
+![kuva](https://github.com/user-attachments/assets/4e9949aa-ae3f-4602-a4b3-6c0d9cf254bf)
+
+
+
 # Tehtävä o) 
 ##### "Vapaaehtoinen, vaikea: Laita sama tietokone vastaamaan kahdellla eri sivulla kahdesta eri nimestä. Eli kaksi weppisiteä samalla koneelle, esim. foo.example.com ja bar.example.com. Voit simuloida nimipalvelun toimintaa hosts-tiedoston avulla."
 
