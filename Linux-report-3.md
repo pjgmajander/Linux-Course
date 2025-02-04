@@ -58,7 +58,8 @@ Muokattu konfiguraatiotiedosta komennolla ``sudoedit /etc/apache2/sites-availabl
 ![kuva](https://github.com/user-attachments/assets/a146a666-b99d-43ee-b190-a9791bae919a)
 
 Tämän jälkeen simuloitu nimipalvelinta isäntäkoneen hosts-tiedoston kautta. Avattu ensin isäntäkoneen notepad admin-oikeuksilla, ja tämän jälkeen avattu siihen hosts-tiedosto, joka löytyi
-seuraavasta polusta: C:\Windows\System32\drivers\etc\hosts
+seuraavasta polusta: ``C:\Windows\System32\drivers\etc\hosts``
+
 Lisätty tiedostoon juuri äsken virtuaalikoneeseen konfiguroitu osoite.
 
 ![kuva](https://github.com/user-attachments/assets/f77c5e6f-1e3e-429d-be52-b251d6cf5560)
@@ -84,9 +85,15 @@ Korjattuani virheen, sain yhteyden viimein muodostettua
 # Tehtävä e) HTML5
 ##### "Tee validi HTML5 sivu."
 
+Laiska ohjelmoija on paras ohjelmoija, sillä hän automatisoi kaiken.
+
 ![kuva](https://github.com/user-attachments/assets/3219fd43-fadc-4952-b613-8870c719cf8b)
 
+Ihailtu tuotosta hetki VSCoden live-serverissä. Lopputuloksen paljastan vasta tämän raportin viimeisessä osiossa.
+
 ![kuva](https://github.com/user-attachments/assets/4fb4bd92-5996-4489-ac0b-55879b710d64)
+
+Tarkistettu vielä w3-validaattorissa, ettei DeepSeek piilottanut hötömölön sekaan spywarea.
 
 ![kuva](https://github.com/user-attachments/assets/27c3d47f-8f69-4f31-ae23-2ea6f8aa0f64)
 
@@ -108,22 +115,23 @@ Käyttämällä ``-I`` -parametria HTTP-pyyntö hakee vain otsikot, mikä on hy�
 # Tehtävä o) 
 ##### "Vapaaehtoinen, vaikea: Laita sama tietokone vastaamaan kahdellla eri sivulla kahdesta eri nimestä. Eli kaksi weppisiteä samalla koneelle, esim. foo.example.com ja bar.example.com. Voit simuloida nimipalvelun toimintaa hosts-tiedoston avulla."
 
-Toistettu tehtävän c vaiheita:
+Toistettu tehtävän C) vaiheita:
 
 ![kuva](https://github.com/user-attachments/assets/4c81ec84-52f4-4419-a736-cdd785a99d7c)
 
 ![kuva](https://github.com/user-attachments/assets/e2c39aad-1cbf-4521-a901-ad230a469106)
 
-muokattu skynet.example.fi index.html lisäämällä tehtävän e html-sivu
+Muokattu skynet.example.fi/index.html lisäämällä tehtävässä E) DeepSeekin luoma HTML-sivu.
 
 ![kuva](https://github.com/user-attachments/assets/5aad6583-99cb-4a26-abf0-549b03b2cd21)
 
-Annettu chatGPT:lle tismalleen sama prompti kuin tämän raportin osiossa e
+Annettu ChatGPT:lle tismalleen sama prompti kuin DeepSeekille.
 
 ![kuva](https://github.com/user-attachments/assets/ffdc8158-1d9a-43a7-bc7e-a7ee1e712061)
 
-Lisäsin chatgpt: tuotoksen hattu.example.com sivuston index.html
-Nyt molemmat sivut pyörivät samanaikaisesti
+Lisäsin ChatGPT:n tuotoksen hattu.example.com/index.html sisällöksi.
+
+Nyt molemmat sivut pyörivät samanaikaisesti tismalleen samasta ip-osoitteesta:
 
 ![kuva](https://github.com/user-attachments/assets/1033db4a-b668-42cb-bab7-fefd5ed75cd7)
 
