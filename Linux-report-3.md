@@ -50,6 +50,12 @@ Viimeisessä tekstilitanjassa näkyy tieto siitä, että millä käyttöjärjest
 # Tehtävä e) HTML5
 ##### "Tee validi HTML5 sivu."
 
+![kuva](https://github.com/user-attachments/assets/3219fd43-fadc-4952-b613-8870c719cf8b)
+
+![kuva](https://github.com/user-attachments/assets/4fb4bd92-5996-4489-ac0b-55879b710d64)
+
+
+
 # Tehtävä f) 
 ##### "Anna esimerkit 'curl -I' ja 'curl' -komennoista. Selitä 'curl -I' muutamasta näyttämästä otsakkeesta (response header), mitä ne tarkoittavat."
 
