@@ -98,6 +98,25 @@ Korjattuani virheen, sain yhteyden viimein muodostettua
 # Tehtävä o) 
 ##### "Vapaaehtoinen, vaikea: Laita sama tietokone vastaamaan kahdellla eri sivulla kahdesta eri nimestä. Eli kaksi weppisiteä samalla koneelle, esim. foo.example.com ja bar.example.com. Voit simuloida nimipalvelun toimintaa hosts-tiedoston avulla."
 
+Toistettu tehtävän c vaiheita:
+
+![kuva](https://github.com/user-attachments/assets/4c81ec84-52f4-4419-a736-cdd785a99d7c)
+
+![kuva](https://github.com/user-attachments/assets/e2c39aad-1cbf-4521-a901-ad230a469106)
+
+muokattu skynet.example.fi index.html lisäämällä tehtävän e html-sivu
+
+![kuva](https://github.com/user-attachments/assets/5aad6583-99cb-4a26-abf0-549b03b2cd21)
+
+Annettu chatGPT:lle tismalleen sama prompti kuin tämän raportin osiossa e
+
+![kuva](https://github.com/user-attachments/assets/ffdc8158-1d9a-43a7-bc7e-a7ee1e712061)
+
+Lisäsin chatgpt: tuotoksen hattu.example.com sivuston index.html
+Nyt molemmat sivut pyörivät samanaikaisesti
+
+![kuva](https://github.com/user-attachments/assets/1033db4a-b668-42cb-bab7-fefd5ed75cd7)
+
 
 ## Lähteet
 
