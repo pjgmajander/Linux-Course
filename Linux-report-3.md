@@ -53,8 +53,31 @@ Viimeisessä tekstilitanjassa näkyy tieto siitä, että millä käyttöjärjest
 
 ![kuva](https://github.com/user-attachments/assets/7542620f-98fa-4cdc-a31c-93a921f41d65)
 
+Muokattu konfiguraatiotiedosta komennolla ``sudoedit /etc/apache2/sites-available/hattu.example.com.conf``
+
 ![kuva](https://github.com/user-attachments/assets/a146a666-b99d-43ee-b190-a9791bae919a)
 
+Tämän jälkeen simuloitu nimipalvelinta isäntäkoneen hosts-tiedoston kautta. Avattu ensin isäntäkoneen notepad admin-oikeuksilla, ja tämän jälkeen avattu siihen hosts-tiedosto, joka löytyi
+seuraavasta polusta: C:\Windows\System32\drivers\etc\hosts
+Lisätty tiedostoon juuri äsken virtuaalikoneeseen konfiguroitu osoite.
+
+![kuva](https://github.com/user-attachments/assets/f77c5e6f-1e3e-429d-be52-b251d6cf5560)
+
+Yhdistetty isäntäkoneella osoitteeseen hattu.example.com, mutta kohdattu 403-forbidden virheilmoitus. 
+
+![kuva](https://github.com/user-attachments/assets/2bd2397b-be47-4d9d-9a2d-551f1b54bf99)
+
+Tarkastettu apachen error.log
+"client denied by server configuration" virheilmoituksesta päätelty, että konfiguraatiotiedostossa on jotain häikkää
+
+![kuva](https://github.com/user-attachments/assets/3ceefb9e-15d5-4df3-b51c-ff1170fe470d)
+
+Havaittu kirjoitusvirhe konfiguraatiotiedostossa
+
+![kuva](https://github.com/user-attachments/assets/20815a9e-ceb7-4339-8410-a99223b0b7eb)
+
+
+![kuva](https://github.com/user-attachments/assets/057b7f66-2d1d-45eb-9e9d-a025fc0b3483)
 
 
 # Tehtävä e) HTML5
@@ -78,4 +101,5 @@ Viimeisessä tekstilitanjassa näkyy tieto siitä, että millä käyttöjärjest
 ## Lähteet
 
 The Apache Software Foundation. 2023. Apache HTTP Server Version 2.4 Documentation. Luettavissa: https://httpd.apache.org/docs/2.4/vhosts/name-based.html 
+
 Karvinen, T. 2018. Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. Luettavissa: https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
