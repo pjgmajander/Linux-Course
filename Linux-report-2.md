@@ -1,4 +1,4 @@
-# H1 Linux server course report ”Oma linux"
+# H2 Linux server course report ”Komentaja Pingviini"
 
 Tämä harjoitustyö on osa Haaga-Helia ammattikorkeakoulun kurssia ”Linux palvelimet”. 
 Tehtävänannot löydät kurssin opettajan verkkosivustolta: https://terokarvinen.com/linux-palvelimet/
