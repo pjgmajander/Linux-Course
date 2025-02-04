@@ -16,6 +16,8 @@ Prosessoriarkkitehtuuri: `x86-64`
 
 Käyttöjärjestelmä: `Microsoft Windows 11 Home`
 
+
+
 # Tehtävä X) 
 ##### Tiivistelmä Tero Karvisen materiaaleista.
 
@@ -31,6 +33,7 @@ Weppipalvelin vastaa. Huom, olen poistanut Apachen oletussivun /var/www/html/ind
 ![kuva](https://github.com/user-attachments/assets/bf356e42-6c4f-4a43-901c-42ea4a9289b8)
 
 
+
 # Tehtävä b) Log
 ##### "Etsi lokista rivit, jotka syntyvät, kun lataat omalta palvelimeltasi yhden sivun. Analysoi rivit (eli selitä yksityiskohtaisesti jokainen kohta ja numero, etsi tarvittaessa lähteitä)."
 
@@ -43,6 +46,8 @@ Alussa näkyvä IP-osoite 10.0.2.2 on Vagrantin ja VirtualBoxin käyttämä erit
 Seuraava ``31/Jan/2025:05:39:43 +0000`` kertoo, milloin pyyntö on tehty. Tässä tapauksessa pyyntö on tehty 31. tammikuuta 2025 kello 05:39:43 UTC-aikavyöhykkeessä. Seuraavaksi näkyy GET-pyyntö, joka on tehty palvelimelle. Esimerkiksi tapauksessa 
 ``"GET /favicon.ico HTTP/1.1"`` asiakas pyytää /favicon.ico-tiedostoa käyttäen HTTP/1.1 -protokollaa. Tämän jälkeen näkyy numerosarja 404, joka tarkoittaa ettei resurssia löytynyt. Numerosarja 200 puolestaan tarkoittaa sitä, että resurssi löydettiin. Ensimmäistä numerosarjaa seuraava toinen numerosarja, esimerkiksi 489 tarkoittaa tavumäärää, jolla palvelin vastasi GET-pyyntöön. "http://localhost:1235/" viittaa URL-osoitteeseen, josta pyyntö tehtiin. Tässä näkyy, että tein isäntäkoneella pyynnön localhost-osoitteen porttiin 1235, jonka olen määrittänyt vagrantfilen port-forwarding säännöissä ohjaamaan isäntäkoneen portin 1235 virtuaalikoneen porttiin 80. Lisätietoja tästä löydät tämän repon ensimmäisestä linux-raportista. 
 Viimeisessä tekstilitanjassa näkyy tieto siitä, että millä käyttöjärjestelmällä ja selaimella pyyntö lähetettiin.
+
+
 
 # Tehtävä c) Name Based Virtual Host
 ##### "Tee uusi name based virtual host. Sivun tulee näkyä suoraan palvelimen etusivulla http://localhost/. Sivua pitää pystyä muokkaamaan normaalina käyttäjänä, ilman sudoa. Tee uusi, laita vanhat pois päältä. Uusi sivu on hattu.example.com, ja tämän pitää näkyä: asetustiedoston nimessä, asetustiedoston ServerName-muuttujassa sekä etusivun sisällössä (esim title, h1 tai p)."
@@ -80,6 +85,7 @@ Havaittu kirjoitusvirhe konfiguraatiotiedostossa
 Korjattuani virheen, sain yhteyden viimein muodostettua
 
 ![kuva](https://github.com/user-attachments/assets/057b7f66-2d1d-45eb-9e9d-a025fc0b3483)
+
 
 
 # Tehtävä e) HTML5
