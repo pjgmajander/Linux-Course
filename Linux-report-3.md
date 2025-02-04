@@ -47,6 +47,14 @@ Viimeisessä tekstilitanjassa näkyy tieto siitä, että millä käyttöjärjest
 # Tehtävä c) Name Based Virtual Host
 ##### "Tee uusi name based virtual host. Sivun tulee näkyä suoraan palvelimen etusivulla http://localhost/. Sivua pitää pystyä muokkaamaan normaalina käyttäjänä, ilman sudoa. Tee uusi, laita vanhat pois päältä. Uusi sivu on hattu.example.com, ja tämän pitää näkyä: asetustiedoston nimessä, asetustiedoston ServerName-muuttujassa sekä etusivun sisällössä (esim title, h1 tai p)."
 
+![kuva](https://github.com/user-attachments/assets/1b58603f-06c7-41f8-8506-cf52f5c1a370)
+
+![kuva](https://github.com/user-attachments/assets/306a1534-f50b-4923-9cc7-d32ed2a038c7)
+
+![kuva](https://github.com/user-attachments/assets/7542620f-98fa-4cdc-a31c-93a921f41d65)
+
+![kuva](https://github.com/user-attachments/assets/a146a666-b99d-43ee-b190-a9791bae919a)
+
 
 
 # Tehtävä e) HTML5
