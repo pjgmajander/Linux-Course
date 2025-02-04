@@ -76,6 +76,7 @@ Havaittu kirjoitusvirhe konfiguraatiotiedostossa
 
 ![kuva](https://github.com/user-attachments/assets/20815a9e-ceb7-4339-8410-a99223b0b7eb)
 
+Korjattuani virheen, sain yhteyden viimein muodostettua
 
 ![kuva](https://github.com/user-attachments/assets/057b7f66-2d1d-45eb-9e9d-a025fc0b3483)
 
