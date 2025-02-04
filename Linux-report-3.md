@@ -44,8 +44,10 @@ Seuraava ``31/Jan/2025:05:39:43 +0000`` kertoo, milloin pyyntö on tehty. Täss�
 ``"GET /favicon.ico HTTP/1.1"`` asiakas pyytää /favicon.ico-tiedostoa käyttäen HTTP/1.1 -protokollaa. Tämän jälkeen näkyy numerosarja 404, joka tarkoittaa ettei resurssia löytynyt. Numerosarja 200 puolestaan tarkoittaa sitä, että resurssi löydettiin. Ensimmäistä numerosarjaa seuraava toinen numerosarja, esimerkiksi 489 tarkoittaa tavumäärää, jolla palvelin vastasi GET-pyyntöön. "http://localhost:1235/" viittaa URL-osoitteeseen, josta pyyntö tehtiin. Tässä näkyy, että tein isäntäkoneella pyynnön localhost-osoitteen porttiin 1235, jonka olen määrittänyt vagrantfilen port-forwarding säännöissä ohjaamaan isäntäkoneen portin 1235 virtuaalikoneen porttiin 80. Lisätietoja tästä löydät tämän repon ensimmäisestä linux-raportista. 
 Viimeisessä tekstilitanjassa näkyy tieto siitä, että millä käyttöjärjestelmällä ja selaimella pyyntö lähetettiin.
 
-# Tehtävä c) 
+# Tehtävä c) Name Based Virtual Host
 ##### "Tee uusi name based virtual host. Sivun tulee näkyä suoraan palvelimen etusivulla http://localhost/. Sivua pitää pystyä muokkaamaan normaalina käyttäjänä, ilman sudoa. Tee uusi, laita vanhat pois päältä. Uusi sivu on hattu.example.com, ja tämän pitää näkyä: asetustiedoston nimessä, asetustiedoston ServerName-muuttujassa sekä etusivun sisällössä (esim title, h1 tai p)."
+
+
 
 # Tehtävä e) HTML5
 ##### "Tee validi HTML5 sivu."
@@ -54,9 +56,11 @@ Viimeisessä tekstilitanjassa näkyy tieto siitä, että millä käyttöjärjest
 
 ![kuva](https://github.com/user-attachments/assets/4fb4bd92-5996-4489-ac0b-55879b710d64)
 
+![kuva](https://github.com/user-attachments/assets/27c3d47f-8f69-4f31-ae23-2ea6f8aa0f64)
 
 
-# Tehtävä f) 
+
+# Tehtävä f) Curl
 ##### "Anna esimerkit 'curl -I' ja 'curl' -komennoista. Selitä 'curl -I' muutamasta näyttämästä otsakkeesta (response header), mitä ne tarkoittavat."
 
 # Tehtävä o) 
