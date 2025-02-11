@@ -22,10 +22,9 @@ Käyttöjärjestelmä: `Microsoft Windows 11 Home`
 ##### Lue ja tiivistä. Tiivistelmäksi riittää muutama ranskalainen viiva per artikkeli. (Tässä alakohdassa ei tarvitse tehdä testejä tietokoneella)
 
 Lehto
-- Palvelimia on vuokrattavissa
 - Palvelin on hyvä suojata palomuurilla
 - Palvelimelle voidaan laittaa kotisivut
-- sudo apt-get dist-upgrade on hyödyllinen komento
+- sudo apt-get dist-upgrade on hyödyllinen komento pakettien päivittämiseksi
 
 Karvinen
 - Aina on käytettävä hyviä salasanoja
