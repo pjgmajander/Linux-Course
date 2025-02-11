@@ -21,6 +21,16 @@ Käyttöjärjestelmä: `Microsoft Windows 11 Home`
 # Tehtävä X) 
 ##### Lue ja tiivistä. Tiivistelmäksi riittää muutama ranskalainen viiva per artikkeli. (Tässä alakohdassa ei tarvitse tehdä testejä tietokoneella)
 
+Lehto
+- Palvelimia on vuokrattavissa
+- Palvelin on hyvä suojata palomuurilla
+- Palvelimelle voidaan laittaa kotisivut
+- sudo apt-get dist-upgrade on hyödyllinen komento
+
+Karvinen
+- Aina on käytettävä hyviä salasanoja
+- Paketit tulee pitää ajan tasalla tietoturvasyistä
+- Root-tili tulee myös sulkea tietoturvasyistä
 
 # Tehtävä a) Vuokraus
 ##### Vuokraa oma virtuaalipalvelin haluamaltasi palveluntarjoajalta. (Vaihtoehtona voit käyttää ilmaista kokeilujaksoa, GitHub Education krediittejä; tai jos mikään muu ei onnistu, voit kokeilla ilmaiseksi vagrant:ia paikallisesti. Suosittelen kuitenkin harjoittelemaan oikeilla, tuotantoon kelpaavilla julkisilla palveluilla).
