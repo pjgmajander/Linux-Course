@@ -34,7 +34,7 @@ Karvinen
 # Tehtävä a) Vuokraus
 ##### Vuokraa oma virtuaalipalvelin haluamaltasi palveluntarjoajalta. (Vaihtoehtona voit käyttää ilmaista kokeilujaksoa, GitHub Education krediittejä; tai jos mikään muu ei onnistu, voit kokeilla ilmaiseksi vagrant:ia paikallisesti. Suosittelen kuitenkin harjoittelemaan oikeilla, tuotantoon kelpaavilla julkisilla palveluilla).
 
-En tässä kohtaa halua rekisteröityä GitHub educationiin tai vuokrata virtuaalipalvelinta. Jatkan aiemmmassa raportissa tekemälläni Vagrant-konfiguraatiolla. 
+En halua rekisteröityä GitHub educationiin tai vuokrata virtuaalipalvelinta. Jatkan aiemmmassa raportissa tekemälläni Vagrant-konfiguraatiolla. 
 
 # Tehtävä b) Alkutoimet
 ##### Tee alkutoimet omalla virtuaalipalvelimellasi: tulimuuri päälle, root-tunnus kiinni, ohjelmien päivitys.
