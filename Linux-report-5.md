@@ -97,11 +97,13 @@ Tietoja ei löytynyt. Syytä tälle en toistaiseksi saanut selville, mutta toden
 
 ### Jonkin pikkuyrityksen, kerhon tai yksittäisen henkilön weppisivut. (Ei kuitenkaan kurssikaverin tällä viikolla vuokrattua nimeä).
 
-Tutkin erään tuntemani porilaisen verkkosivuja loihtivan welhon kotisivuja:
+Erään tuntemani porilaisen verkkosivuja loihtivan welhon kotisivut
 
 ![kuva](https://github.com/user-attachments/assets/30d5c352-0362-45a5-af25-c0899fea4e9e)
 
 ### Jonkin suuren ja kaikkien tunteman palvelun tiedot.
+
+Chatgpt.com
 
 ![kuva](https://github.com/user-attachments/assets/1728e469-4846-4e20-833d-10371e93fa39)
 
@@ -111,4 +113,5 @@ Geeksforgeeks.org. 2024. Dig Command in Linux with Examples. Luettavissa: https:
 
 Aatos Digital. https://aatosdigital.fi/ 
 
+https://terokarvinen.com/linux-palvelimet/
 
