@@ -41,15 +41,15 @@ En halua rekisteröityä GitHub educationiin tai vuokrata virtuaalipalvelinta. J
 
 ![kuva](https://github.com/user-attachments/assets/1ad222a7-ede6-4df2-a5d4-0a18000f476f)
 
-Siirrytty Vagrant -käyttäjästä rootiksi
+Siirrytty Vagrant -käyttäjästä rootiksi:
 
 ![kuva](https://github.com/user-attachments/assets/67b6d6c2-22bc-4adb-a7e2-93b6fba9a571)
 
-Luotu uusi käyttäjä
+Luotu uusi käyttäjä:
 
 ![kuva](https://github.com/user-attachments/assets/27d3480e-7a27-4bbe-8b4d-c3eb6267351d)
 
-Käyttäjälle sudo-oikeudet
+Annettu äsken luodulle käyttäjälle sudo-oikeudet:
 
 ![kuva](https://github.com/user-attachments/assets/c7a63d53-25f1-4e0b-b84d-5f352157699c)
 
