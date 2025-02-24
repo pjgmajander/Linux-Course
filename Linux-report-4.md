@@ -39,6 +39,8 @@ En halua rekisteröityä GitHub educationiin tai vuokrata virtuaalipalvelinta. J
 # Tehtävä b) Alkutoimet
 ##### Tee alkutoimet omalla virtuaalipalvelimellasi: tulimuuri päälle, root-tunnus kiinni, ohjelmien päivitys.
 
+Tarkastettu palomuurin tila (pois päältä). Tämän jälkeen avattu palomuurin portti 80 ja käynnistetty palomuuri. Lopuksi vielä varmistettu, että palomuuri on aktiivisessa tilassa:
+
 ![kuva](https://github.com/user-attachments/assets/1ad222a7-ede6-4df2-a5d4-0a18000f476f)
 
 Siirrytty Vagrant -käyttäjästä rootiksi:
