@@ -72,7 +72,8 @@ Korjattu T. Karvisen ohjeilla
 
 ####Index.html
 
-![kuva](https://github.com/user-attachments/assets/09e7e502-a75f-46e7-9d6c-87334a879404)
+![kuva](https://github.com/user-attachments/assets/2647c2e4-153e-4e42-9933-d40a535a6277)
+
 
 ####Apply.html
 
