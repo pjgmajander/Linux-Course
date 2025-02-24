@@ -20,7 +20,17 @@ Käyttöjärjestelmä: `Microsoft Windows 11 Home`
 
 # Tehtävä a) Nimi 
 ##### Laita julkinen nimi osoittamaan omaan koneeseesi. (Siis vastaava kuin terokarvinen.com. Nimen saattaa saada myös ilmaiseksi Github Education -paketilla. Suosittelen hankkimaan oikean nimen, mutta jos välttämättä haluat, voit myös simuloida nimen toimintaa paikallisesti hosts-tiedoston avulla.)
- 
+
+Aloittaessani työskentelyn huomasin, että olin unohtanut sammuttaa Vagrant -virtuaalikoneeni. Muistiini juolahti, että tämä saattaa sotkea järjestelmän kellonajan, joten tarkistin sen heti komennolla ``date``
+
+Kellonaika oli kuin olikin väärässä:
+
+![kuva](https://github.com/user-attachments/assets/ea7681f5-73aa-4096-ba98-4bb541af748c)
+
+Päivitin siis ensitöikseni järjestelmän kellonajan komennolla ``sudo date [MMDDhhmmYYYY]``
+
+![kuva](https://github.com/user-attachments/assets/693fcd74-6e43-4147-a91a-f034f5352d3c)
+
 
 # Tehtävä b) Based
 ##### Laita Name Based Virtual Host näkymään uudessa nimessäsi. Kotisvuja pitää pystyä muokkaamaan ilman pääkäyttäjän oikeuksia.
