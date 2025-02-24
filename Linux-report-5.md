@@ -31,6 +31,10 @@ Päivitin siis ensitöikseni järjestelmän kellonajan komennolla ``sudo date [M
 
 ![kuva](https://github.com/user-attachments/assets/693fcd74-6e43-4147-a91a-f034f5352d3c)
 
+Seuraavaksi loin deepseeker -käyttäjälle uuden hakemistopolun verkkosivua varten:
+
+![kuva](https://github.com/user-attachments/assets/f9623ea6-a5cb-4225-82b7-4a2153416f26)
+
 
 # Tehtävä b) Based
 ##### Laita Name Based Virtual Host näkymään uudessa nimessäsi. Kotisvuja pitää pystyä muokkaamaan ilman pääkäyttäjän oikeuksia.
