@@ -18,8 +18,9 @@ Prosessoriarkkitehtuuri: `x86-64`
 Käyttöjärjestelmä: `Microsoft Windows 11 Home`
 
 
-# Tehtävä a) Nimi 
+# Tehtävä a) Nimi | Tehtävä b) Based
 ##### Laita julkinen nimi osoittamaan omaan koneeseesi. (Siis vastaava kuin terokarvinen.com. Nimen saattaa saada myös ilmaiseksi Github Education -paketilla. Suosittelen hankkimaan oikean nimen, mutta jos välttämättä haluat, voit myös simuloida nimen toimintaa paikallisesti hosts-tiedoston avulla.)
+##### Laita Name Based Virtual Host näkymään uudessa nimessäsi. Kotisvuja pitää pystyä muokkaamaan ilman pääkäyttäjän oikeuksia.
 
 Aloittaessani työskentelyn huomasin, että olin unohtanut sammuttaa Vagrant -virtuaalikoneeni. Muistiini juolahti, että tämä saattaa sotkea järjestelmän kellonajan, joten tarkistin sen heti komennolla ``date``
 
@@ -64,16 +65,12 @@ Korjattu T. Karvisen ohjeilla
 ![kuva](https://github.com/user-attachments/assets/2df87119-562d-4c23-8694-2c7a3a55de6b)
 
 
-# Tehtävä b) Based
-##### Laita Name Based Virtual Host näkymään uudessa nimessäsi. Kotisvuja pitää pystyä muokkaamaan ilman pääkäyttäjän oikeuksia.
-
 # Tehtävä c) Kotisivu
 ##### Tee vähintään kolmen erillisen alasivun (esim. index.html, blog.html, projects.html) kotisivu ja kopioi se näkymään palvelimellesi. Sivujen muokkaamisen pitää onnistua ilman pääkäyttäjän oikeuksia, niiden kopioiminen pääkäyttäjänä testisivun paikalle ei käy. Kotisivujen ei tarvitse olla hienoja, mutta niiden tulee olla validia HTML:ää ja linkittää toisiinsa.
 
 ### Index.html
 
 ![kuva](https://github.com/user-attachments/assets/2647c2e4-153e-4e42-9933-d40a535a6277)
-
 
 ### Apply.html
 
