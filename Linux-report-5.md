@@ -55,12 +55,23 @@ Raportista 3 oppineena kövin tarkastamassa suoraan conf -tiedoston, ja siellä 
 
 ![kuva](https://github.com/user-attachments/assets/2b9eb7dd-b9a9-4066-bdc0-3d92f424242b)
 
+Nyt tulikin uusi virheilmoitus
+
+![kuva](https://github.com/user-attachments/assets/4f92d96f-6cfb-485a-b178-a338b3668a89)
+
+Korjattu T. Karvisen ohjeilla
+
+![kuva](https://github.com/user-attachments/assets/2df87119-562d-4c23-8694-2c7a3a55de6b)
+
 
 # Tehtävä b) Based
 ##### Laita Name Based Virtual Host näkymään uudessa nimessäsi. Kotisvuja pitää pystyä muokkaamaan ilman pääkäyttäjän oikeuksia.
 
 # Tehtävä c) Kotisivu
 ##### Tee vähintään kolmen erillisen alasivun (esim. index.html, blog.html, projects.html) kotisivu ja kopioi se näkymään palvelimellesi. Sivujen muokkaamisen pitää onnistua ilman pääkäyttäjän oikeuksia, niiden kopioiminen pääkäyttäjänä testisivun paikalle ei käy. Kotisivujen ei tarvitse olla hienoja, mutta niiden tulee olla validia HTML:ää ja linkittää toisiinsa.
+
+![kuva](https://github.com/user-attachments/assets/09e7e502-a75f-46e7-9d6c-87334a879404)
+
 
 # Tehtävä d) Alidomain
 ##### Tee kaksi uutta alidomainia, jotka osoittava omaan koneeseesi. Esimerkiksi palvelu on example.com -> linuxkurssi.example.com. Alidomainit ovat tyypillisesti ilmaisia, kun sinulla on päädomain (example.com). Tässä tehtävässä riittää, että alidomainit avaavat saman sivun kuin päädomain. (Vapaaehtoinen bonus: Tee toinen alidomain A-tietueella ja toinen CNAME-tietueella. Vapaaehtoinen bonus: tee alidomainiin oma erillinen name based virtual host.)
