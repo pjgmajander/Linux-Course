@@ -57,6 +57,7 @@ Käyttäjälle sudo-oikeudet
 # Tehtävä c) Weppipalvelin
 ##### Asenna weppipalvelin omalle virtuaalipalvelimellesi. Korvaa testisivu. Kokeile, että se näkyy julkisesti. Kokeile myös eri koneelta, esim kännykältä. (Jos haluat tehdä oikeat weppisivut, tarvitset Name Based Virtual Hostin)
 
+kts. aiemman raportin tehtävä O).
 https://github.com/pjgmajander/Linux-Course/blob/main/Linux-report-3.md#teht%C3%A4v%C3%A4-o
 
 
