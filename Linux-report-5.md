@@ -47,6 +47,14 @@ Enabloitu sivu ja uudelleenkäynnistetty apache2-demoni
 
 ![kuva](https://github.com/user-attachments/assets/3f53016c-f9b1-4827-ae88-83194abce7da)
 
+Sivua ei löytynyt
+
+![kuva](https://github.com/user-attachments/assets/863fbef1-91e5-4068-83c0-7af1165511e6)
+
+Raportista 3 oppineena kövin tarkastamassa suoraan conf -tiedoston, ja siellä olikin jälleen kirjoitusvirhe 
+
+![kuva](https://github.com/user-attachments/assets/2b9eb7dd-b9a9-4066-bdc0-3d92f424242b)
+
 
 # Tehtävä b) Based
 ##### Laita Name Based Virtual Host näkymään uudessa nimessäsi. Kotisvuja pitää pystyä muokkaamaan ilman pääkäyttäjän oikeuksia.
