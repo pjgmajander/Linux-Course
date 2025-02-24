@@ -70,16 +70,16 @@ Korjattu T. Karvisen ohjeilla
 # Tehtävä c) Kotisivu
 ##### Tee vähintään kolmen erillisen alasivun (esim. index.html, blog.html, projects.html) kotisivu ja kopioi se näkymään palvelimellesi. Sivujen muokkaamisen pitää onnistua ilman pääkäyttäjän oikeuksia, niiden kopioiminen pääkäyttäjänä testisivun paikalle ei käy. Kotisivujen ei tarvitse olla hienoja, mutta niiden tulee olla validia HTML:ää ja linkittää toisiinsa.
 
-#### Index.html
+### Index.html
 
 ![kuva](https://github.com/user-attachments/assets/2647c2e4-153e-4e42-9933-d40a535a6277)
 
 
-#### Apply.html
+### Apply.html
 
 ![kuva](https://github.com/user-attachments/assets/a0a3702c-178b-4049-9c43-0f94293e3d98)
 
-#### History.html
+### History.html
 
 ![kuva](https://github.com/user-attachments/assets/f13b5501-ea74-4a70-b113-c4b3087c1c52)
 
@@ -90,7 +90,7 @@ Korjattu T. Karvisen ohjeilla
 # Tehtävä e) DNS
 ##### Tutki jonkin nimen DNS-tietoja 'host' ja 'dig' -komennoilla. Käytä kumpaakin komentoa kaikkiin nimiin ja vertaa tuloksia. Katso man-sivulta, miten komennot toimivat - esimerkiksi miten 'dig' näyttää kaikki kentät. Analysoi tulokset, keskity nimipalvelimelta tulleisiin kenttiin (dig näyttää paljon muutakin tietoa). Etsi tarvittaessa uusia lähteitä haastaviin kohtiin. Sähköpostin todentamiseen liittyvät SPF ja DMARC -tietojen yksityiskohdat on jätetty vapaaehtoiseksi lisätehtäväksi. Tutkittavat nimet:
 
-##### Oma domain-nimesi. Vertaa tuloksia nimen vuokraajan (namecheap.com, name.com...) weppiliittymässä näkyviin asetuksiin.
+### Oma domain-nimesi. Vertaa tuloksia nimen vuokraajan (namecheap.com, name.com...) weppiliittymässä näkyviin asetuksiin.
 
 ![kuva](https://github.com/user-attachments/assets/6dde5df9-d292-47ec-b068-405736fb6f5d)
 
@@ -98,13 +98,13 @@ Korjattu T. Karvisen ohjeilla
 
 Tietoja ei löytynyt. Syytä tälle en toistaiseksi saanut selville, mutta todennäköisesti liittyy Vagrant -kokoonpanooni.
 
-##### Jonkin pikkuyrityksen, kerhon tai yksittäisen henkilön weppisivut. (Ei kuitenkaan kurssikaverin tällä viikolla vuokrattua nimeä).
+### Jonkin pikkuyrityksen, kerhon tai yksittäisen henkilön weppisivut. (Ei kuitenkaan kurssikaverin tällä viikolla vuokrattua nimeä).
 
 Tutkin erään tuntemani porilaisen verkkosivuja loihtivan welhon kotisivuja:
 
 ![kuva](https://github.com/user-attachments/assets/30d5c352-0362-45a5-af25-c0899fea4e9e)
 
-##### Jonkin suuren ja kaikkien tunteman palvelun tiedot.
+### Jonkin suuren ja kaikkien tunteman palvelun tiedot.
 
 ![kuva](https://github.com/user-attachments/assets/1728e469-4846-4e20-833d-10371e93fa39)
 
