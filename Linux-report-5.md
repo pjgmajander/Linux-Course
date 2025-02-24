@@ -112,4 +112,6 @@ Tutkin erään tuntemani porilaisen verkkosivuja loihtivan welhon kotisivuja:
 
 Geeksforgeeks.org. 2024. Dig Command in Linux with Examples. Luettavissa: https://www.geeksforgeeks.org/dig-command-in-linux-with-examples/ 
 
+Aatos Digital. https://aatosdigital.fi/ 
+
 
