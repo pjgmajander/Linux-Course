@@ -144,14 +144,6 @@ Suoritin tehtävänannon komennon, jolla komentoriviin tulostui järjestelmätie
 
 ![kuva](https://github.com/user-attachments/assets/b2c1c660-0c64-4b79-8fe9-06f4c3087e54)
 
-
-# Tehtävä g) Vapaaehtoinen
-##### "Valitse muutama rivi lokeista. Tulkitse ja analysoi."
-
-# Tehtävä h) Vapaaehtoinen
-##### "Asenna jokin plugin micro-editorille ja kokeile sitä. Vaikkapa palettero, cheat tai runit."
-
-
 ## Lähteet
 
 Karvinen, T. 2009. Command Line Basics, luettavissa: https://terokarvinen.com/2009/command-line-basics-4/ 
