@@ -51,7 +51,7 @@ Sivua ei löytynyt
 
 ![kuva](https://github.com/user-attachments/assets/863fbef1-91e5-4068-83c0-7af1165511e6)
 
-Raportista 3 oppineena kövin tarkastamassa suoraan conf -tiedoston, ja siellä olikin jälleen kirjoitusvirhe 
+Raportista 3 oppineena kävin tarkastamassa suoraan conf -tiedoston, ja siellä olikin jälleen kirjoitusvirhe 
 
 ![kuva](https://github.com/user-attachments/assets/2b9eb7dd-b9a9-4066-bdc0-3d92f424242b)
 
@@ -70,7 +70,18 @@ Korjattu T. Karvisen ohjeilla
 # Tehtävä c) Kotisivu
 ##### Tee vähintään kolmen erillisen alasivun (esim. index.html, blog.html, projects.html) kotisivu ja kopioi se näkymään palvelimellesi. Sivujen muokkaamisen pitää onnistua ilman pääkäyttäjän oikeuksia, niiden kopioiminen pääkäyttäjänä testisivun paikalle ei käy. Kotisivujen ei tarvitse olla hienoja, mutta niiden tulee olla validia HTML:ää ja linkittää toisiinsa.
 
+####Index.html
+
 ![kuva](https://github.com/user-attachments/assets/09e7e502-a75f-46e7-9d6c-87334a879404)
+
+####Apply.html
+
+![kuva](https://github.com/user-attachments/assets/a0a3702c-178b-4049-9c43-0f94293e3d98)
+
+####History.html
+
+![kuva](https://github.com/user-attachments/assets/f13b5501-ea74-4a70-b113-c4b3087c1c52)
+
 
 
 # Tehtävä d) Alidomain
