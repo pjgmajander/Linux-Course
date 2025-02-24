@@ -35,6 +35,18 @@ Seuraavaksi loin deepseeker -käyttäjälle uuden hakemistopolun verkkosivua var
 
 ![kuva](https://github.com/user-attachments/assets/f9623ea6-a5cb-4225-82b7-4a2153416f26)
 
+Luotu konfiguraatiotiedosto
+
+![kuva](https://github.com/user-attachments/assets/b44888d1-e5b1-4ec6-9803-81c495ffe2b8)
+
+Hosts
+
+![kuva](https://github.com/user-attachments/assets/a45de7b4-2440-4546-b10e-a703398693d4)
+
+Enabloitu sivu ja uudelleenkäynnistetty apache2-demoni
+
+![kuva](https://github.com/user-attachments/assets/3f53016c-f9b1-4827-ae88-83194abce7da)
+
 
 # Tehtävä b) Based
 ##### Laita Name Based Virtual Host näkymään uudessa nimessäsi. Kotisvuja pitää pystyä muokkaamaan ilman pääkäyttäjän oikeuksia.
