@@ -53,6 +53,9 @@ Käyttäjälle sudo-oikeudet
 
 ![kuva](https://github.com/user-attachments/assets/c7a63d53-25f1-4e0b-b84d-5f352157699c)
 
+Suljettu root -tunnus ja piilotettu sen ssh-asetukset komennoilla:
+1. ``sudo usermod --lock root`` (lukitsee Root -käyttäjän)
+2. ``mv -nv /root/.ssh /root/DISABLED-ssh/`` (siirtää Root -käyttäjän ssh-asetukset uuteen sijaintiin, -n ja -v lisäkäskyt estävät tiedostojen ylikirjoittamisen ja tulostaa tapahtuvat toimenpiteet komentotulkkiin)
 
 # Tehtävä c) Weppipalvelin
 ##### Asenna weppipalvelin omalle virtuaalipalvelimellesi. Korvaa testisivu. Kokeile, että se näkyy julkisesti. Kokeile myös eri koneelta, esim kännykältä. (Jos haluat tehdä oikeat weppisivut, tarvitset Name Based Virtual Hostin)
