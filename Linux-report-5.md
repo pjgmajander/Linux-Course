@@ -36,7 +36,7 @@ Seuraavaksi loin deepseeker -käyttäjälle uuden hakemistopolun verkkosivua var
 
 ![kuva](https://github.com/user-attachments/assets/f9623ea6-a5cb-4225-82b7-4a2153416f26)
 
-Luotu konfiguraatiotiedosto
+Luoto konfiguraatiotiedosto komennolla ``sudo nano /etc/apache2/sites-available/harvard-helia.fi.conf``
 
 ![kuva](https://github.com/user-attachments/assets/b44888d1-e5b1-4ec6-9803-81c495ffe2b8)
 
