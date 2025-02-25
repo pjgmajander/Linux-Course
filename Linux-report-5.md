@@ -40,7 +40,7 @@ Luotu konfiguraatiotiedosto
 
 ![kuva](https://github.com/user-attachments/assets/b44888d1-e5b1-4ec6-9803-81c495ffe2b8)
 
-Hosts
+Simuloitu nimipalvelimen toimintaa isäntäkoneen hosts -tiedostossa:
 
 ![kuva](https://github.com/user-attachments/assets/a45de7b4-2440-4546-b10e-a703398693d4)
 
