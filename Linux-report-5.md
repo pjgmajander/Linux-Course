@@ -58,9 +58,9 @@ Raportista 3 oppineena kävin tarkastamassa suoraan conf -tiedoston, ja siellä 
 
 Nyt tulikin uusi virheilmoitus
 
-![kuva](https://github.com/user-attachments/assets/4f92d96f-6cfb-485a-b178-a338b3668a89)
+![kuva](https://github.com/user-attachments/assets/7148e172-95ef-413e-9745-ace4d14b6c72)
 
-Korjattu T. Karvisen ohjeilla
+Korjattu T. Karvisen ohjeilla (kurssin tehtävänannossa)
 
 ![kuva](https://github.com/user-attachments/assets/2df87119-562d-4c23-8694-2c7a3a55de6b)
 
