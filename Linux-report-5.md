@@ -85,7 +85,7 @@ Korjattu T. Karvisen ohjeilla (kurssin tehtävänannossa)
 ##### Tee kaksi uutta alidomainia, jotka osoittava omaan koneeseesi. Esimerkiksi palvelu on example.com -> linuxkurssi.example.com. Alidomainit ovat tyypillisesti ilmaisia, kun sinulla on päädomain (example.com). Tässä tehtävässä riittää, että alidomainit avaavat saman sivun kuin päädomain. (Vapaaehtoinen bonus: Tee toinen alidomain A-tietueella ja toinen CNAME-tietueella. Vapaaehtoinen bonus: tee alidomainiin oma erillinen name based virtual host.)
 
 
-###### temp.harvard-helia.fi
+##### temp.harvard-helia.fi
 
 ``sudo nano /etc/apache2/sites-available/temp.harvard-helia.fi.conf``
 
