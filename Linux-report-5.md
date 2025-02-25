@@ -84,6 +84,28 @@ Korjattu T. Karvisen ohjeilla
 # Tehtävä d) Alidomain
 ##### Tee kaksi uutta alidomainia, jotka osoittava omaan koneeseesi. Esimerkiksi palvelu on example.com -> linuxkurssi.example.com. Alidomainit ovat tyypillisesti ilmaisia, kun sinulla on päädomain (example.com). Tässä tehtävässä riittää, että alidomainit avaavat saman sivun kuin päädomain. (Vapaaehtoinen bonus: Tee toinen alidomain A-tietueella ja toinen CNAME-tietueella. Vapaaehtoinen bonus: tee alidomainiin oma erillinen name based virtual host.)
 
+
+###### temp.harvard-helia.fi
+
+``sudo nano /etc/apache2/sites-available/temp.harvard-helia.fi.conf``
+
+![kuva](https://github.com/user-attachments/assets/b58cd76c-3544-4cf1-9fec-159c4d4ac574)
+
+##### foobar.harvard-helia.fi
+
+``sudo nano /etc/apache2/sites-available/foobar.harvard-helia.fi.conf``
+
+![kuva](https://github.com/user-attachments/assets/8d8cd1cf-bd5e-49d5-b09c-f4063d59de2d)
+
+Päivitetty isäntäkoneen hosts -tiedosto:
+
+![kuva](https://github.com/user-attachments/assets/d9c33266-f31f-4614-93d9-1e77cfb8b166)
+
+Lopputulos:
+
+![kuva](https://github.com/user-attachments/assets/39c5d606-bf13-4dce-8b1b-415053e06da6)
+
+
 # Tehtävä e) DNS
 ##### Tutki jonkin nimen DNS-tietoja 'host' ja 'dig' -komennoilla. Käytä kumpaakin komentoa kaikkiin nimiin ja vertaa tuloksia. Katso man-sivulta, miten komennot toimivat - esimerkiksi miten 'dig' näyttää kaikki kentät. Analysoi tulokset, keskity nimipalvelimelta tulleisiin kenttiin (dig näyttää paljon muutakin tietoa). Etsi tarvittaessa uusia lähteitä haastaviin kohtiin. Sähköpostin todentamiseen liittyvät SPF ja DMARC -tietojen yksityiskohdat on jätetty vapaaehtoiseksi lisätehtäväksi. Tutkittavat nimet:
 
