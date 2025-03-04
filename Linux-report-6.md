@@ -22,8 +22,34 @@ Käyttöjärjestelmä: `Microsoft Windows 11 Home`
 # Tehtävä x) Tiivistelmä
 ##### Lue ja tiivistä. Tiivistelmäksi riittää muutama ranskalainen viiva per artikkeli. (Tässä alakohdassa ei tarvitse tehdä testejä tietokoneella)
 
+#### Let's Encrypt:
 
+   - Let's Encryptin ja ACME -protokollan tarkoituksena on mahdollistaa sellaisen HTTPS-palvelimen rakentaminen, joka hakee automaattisesti selaimen luottaman sertifikaatin.
+     
+   - Let's Encrypt CA tunnistaa palvelimen ylläpitäjän julkisen avaimen perusteella, ja lähettää palvelimelle tehtävän (DNS-tietueen tai HTTP-resurssin luominen).
+     
+   - Palvelin saa Let's Encryptiltä myös Nonce-nimisen satunnaisen luvun, jonka palvelin allekirjoittaa omalla yksityisellä avaimellaan.
 
+#### Lange (Lego): 
+
+   - Lego työkalun avulla voidaan hankkia ja hallita TLS-sertifikaatteja.
+     
+   - Olemassaoleva verkkopalvelin, joka kuuntelee porttia 80, voi suorittaa Let's Encryptin haasteen tällä komennolla: ``lego --accept-tos --email you@example.com --http --http.webroot /path/to/webroot --domains example.com run``
+
+#### Apache:
+
+   - Apache verkkopalvelimen SSL-asetukset voidaan määrittää minimikriteereillä lataamalla ensin SSL-moduulin komennolla: ``LoadModule ssl_module modules/mod_ssl.so``
+     
+   - Tämän jälkeen Apache käsketään kuuntelemaan porttia 443 komennolla: ``Listen 443``
+
+   - Lopuksi Apachen konfiguraatiotiedostoon lisätään seuraavat ohjeet:
+     
+``<VirtualHost *:443>
+    ServerName www.example.com
+    SSLEngine on
+    SSLCertificateFile "/path/to/www.example.com.cert"
+    SSLCertificateKeyFile "/path/to/www.example.com.key"
+</VirtualHost>``
 
 # Tehtävä b) A-rating.
 ##### Testaa oma sivusi TLS jollain yleisellä laadunvarmistustyökalulla, esim. SSLLabs (Käytä vain tavanomaisia tarkistustyökaluja, ei tunkeutumistestausta eikä siihen liittyviä työkaluja)
