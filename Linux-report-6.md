@@ -71,19 +71,31 @@ Tämä tarkoittaa sitä, että verkkosivusto käyttää Server Name Indication (
 # Tehtävä c) Weppilomake
 ##### Tee weppilomake, jossa on käyttäjätunnus ja salasana. Käytä salaamatonta http-yhteyttä. Sieppaa liikennettä (esim. Wireshark, ngrep). Mitä havaitset? Mitä vaikutuksia tällä on tietoturvaan?
 
+Ensimmäiseksi loin yksinkertaisen kirjautumislomakkeen.
+
 ![kuva](https://github.com/user-attachments/assets/da7f464e-90d1-4056-b689-8ed1854794ad)
 
+Lomake näyttää selaimessa tältä:
 
 ![kuva](https://github.com/user-attachments/assets/6d12cd52-e5f0-47a5-af42-e2447006def8)
 
-Päivitetty pakettivarasto ``sudo apt-get update``
-Sitten asennettu ngrep eli linuxin wireshark 
+Päivitetty pakettivarasto komennolla: ``sudo apt-get update``
+Tämän jälkeen asensin ngrep -työkalun, jolla voidaan kuunnella verkkoliikennettä. ``sudo apt-get -y install ngrep``
+
+Aloitin liikenteen kuuntelun komennolla: ``sudo ngrep -d any -W byline port 80``
+"-d any" antaa lisäohjeen kuunnella kaikkia verkkoliitäntöjä ja "-W byline" kirjoittaa siepatun liikenteen rivi kerrallaan komentoriville. Sieppaus on rajoitettu vain portin 80 liikenteelle. 
 
 ![kuva](https://github.com/user-attachments/assets/5e45f371-53eb-446c-a714-e0ee69a57c42)
 
+Syöttäessäni tunnuksia, selaimeni varoitti minua siitä, että yhteys ei ole salattu. 
+
 ![kuva](https://github.com/user-attachments/assets/91318fbb-03c9-42d0-a6ad-911f37f7a1cd)
 
+Syötettyäni erilaisia tunnuksia, löysin ne kaikki komentoriviltä siepatun verkkoliikenteen joukosta. Salasana näkyy selkokielisenä tekstinä.
+
 ![kuva](https://github.com/user-attachments/assets/95475848-d97e-48cb-9f64-bc281b33f087)
+
+Toisin sanoen tämä osoittaa sen, että http-liikennettä voidaan lukea selkokielisenä. Tämä altistaa sivuston man in the middle -verkkohyökkäyksille, jossa hyökkääjä kaappaa salaamattoman liikenteen itselleen ngrepin, wiresharkin tai muun vastaavan työkalun avulla. Ei hyvä.
 
 
 ## Lähteet
