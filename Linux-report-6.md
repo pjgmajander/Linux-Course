@@ -1,7 +1,7 @@
 
 
 
-# H5 Linux server course report ”Named"
+# H6 Linux server course report ”Let us encrypt"
 
 Tämä harjoitustyö on osa Haaga-Helia ammattikorkeakoulun kurssia ”Linux palvelimet”. 
 Tehtävänannot löydät kurssin opettajan verkkosivustolta: https://terokarvinen.com/linux-palvelimet/
