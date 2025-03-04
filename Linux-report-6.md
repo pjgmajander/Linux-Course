@@ -106,3 +106,4 @@ N, Lange. 2024. Lego: Obtain a Certificate: Using an existing, running web serve
 
 The Apache Software Foundation. 2025. Apache HTTP Server Version 2.4 [Official] Documentation: SSL/TLS Strong Encryption: How-To: Basic Configuration Example. Luettavissa: https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html#configexample 
 
+S. Metsola. https://www.satumetsola.com/ 
