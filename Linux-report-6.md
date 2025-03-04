@@ -102,8 +102,8 @@ Toisin sanoen tämä osoittaa sen, että http-liikennettä voidaan lukea selkoki
 
 Let's Encrypt. 2024. How It Works. Luettavissa: https://letsencrypt.org/how-it-works/
 
-N, Lange. 2024. Lego: Obtain a Certificate: Using an existing, running web server. Luettavissa;
+Lange, N. 2024. Lego: Obtain a Certificate: Using an existing, running web server. Luettavissa;
 
 The Apache Software Foundation. 2025. Apache HTTP Server Version 2.4 [Official] Documentation: SSL/TLS Strong Encryption: How-To: Basic Configuration Example. Luettavissa: https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html#configexample 
 
-S. Metsola. https://www.satumetsola.com/ 
+Metsola, S. https://www.satumetsola.com/ 
