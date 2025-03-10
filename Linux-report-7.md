@@ -65,15 +65,20 @@ Tässä vielä ylimääräinen demonstraatio virhetilanteesta, jossa lähdekoodi
 
 #### C
 
-Kirsikkana kakun päälle loin monimutkaisimmalla tuntemallani kielellä skriptin: 
+Kirsikkana kakun päälle loin monimutkaisimmalla tuntemallani kielellä hieman monimutkaisemman skriptin: 
 
-![kuva](https://github.com/user-attachments/assets/1b1e3b8a-1dd1-4cd5-81d6-85c5b825cae6)
+![kuva](https://github.com/user-attachments/assets/55b84178-c351-43ab-9fea-3368853086a9)
 
+Seuraavaksi aivan samalla tavalla kuin Javan kanssa, lähdekoodi tulee kääntää komentotulkille ymmärrettävään muotoon. Tämä tapahtuu komennolla ``gcc LuokanNimi.c -o HaluamasiNimiOhjelmalle`` (GCC = Gnu Compiler for C)
+Tutkin myös bittikoodia cat-komennolla vain todetakseni, että se on huomattavasi kryptisemmän näköinen kuin aiemmassa esimerkissäni Javan kanssa.
 
-![kuva](https://github.com/user-attachments/assets/a245bf77-32ca-4de3-a88b-e572b5b37fc6)
+![kuva](https://github.com/user-attachments/assets/31df39ea-b49e-4f5e-a3ca-44332535d4e8)
 
+Tässä lopputulos:
 
+![kuva](https://github.com/user-attachments/assets/b48e44b7-4474-469d-82cf-be1e9703accb)
 
+(Käännös: "Hei kaikki! Opiskelen kiinaa, koska tahtoisin lentää Pekingiin! Näkemiin!")
 
 # Tehtävä b) New command
 ##### Laita Linuxiin uusi, itse tekemäsi komento niin, että kaikki käyttäjät voivat ajaa sitä.
