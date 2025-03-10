@@ -83,6 +83,15 @@ Tässä lopputulos:
 # Tehtävä b) New command
 ##### Laita Linuxiin uusi, itse tekemäsi komento niin, että kaikki käyttäjät voivat ajaa sitä.
 
+Ensiksi loin C-kielellä hauskan toiminnon
+
+![kuva](https://github.com/user-attachments/assets/8fe8cdcd-d383-4d89-90cb-d0fdfe52b8dc)
+
+Annoin ohjelmalle suoritusoikeudet ja kokeilin sen toimivuuden:
+
+![kuva](https://github.com/user-attachments/assets/7a2ebeae-6ba3-4a67-b3bd-44a9f53a2218)
+
+
 # Tehtävä c) Lab
 ##### Ratkaise vanha arvioitava laboratorioharjoitus soveltuvin osin.
 
