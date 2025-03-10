@@ -53,7 +53,7 @@ Seuraavaksi oli vuorossa hivenen vaikeampi kieli eli Java: ``nano HloWrld.java``
 Ennen skriptin eli lähdekoodin suorittamista se on käännettävä Java-kääntäjän (javac) avulla bittikoodiksi, jota tietokone ymmärtää. Tämä toteutetaan komennolla ``javac LuokanNimi.java``
 Komennon suorittamisen jälkeen hakemistoon ilmestyi bittikooditiedosto "HloWrld.class". Tarkastin uteliaisuudesta sen sisällön cat-komennon avulla.
 
-![kuva](https://github.com/user-attachments/assets/284a5a31-68e8-47d1-b7fe-e8ed8743827c)
+![kuva](https://github.com/user-attachments/assets/4d3454d1-6e6b-4fd3-8295-9b5a4cc20456)
 
 Skriptin suorittaminen tuotti halutun tuloksen:
 
