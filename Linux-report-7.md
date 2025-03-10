@@ -1,6 +1,3 @@
-
-
-
 # H7 Linux server course report ”Almost there"
 
 Tämä harjoitustyö on osa Haaga-Helia ammattikorkeakoulun kurssia ”Linux palvelimet”. 
@@ -87,9 +84,12 @@ Ensiksi loin C-kielellä hauskan toiminnon
 
 ![kuva](https://github.com/user-attachments/assets/8fe8cdcd-d383-4d89-90cb-d0fdfe52b8dc)
 
-Annoin ohjelmalle suoritusoikeudet ja kokeilin sen toimivuuden:
+Annoin ohjelmalle suoritusoikeudet ``chmod a+x nC.sh`` ja kokeilin sen toimivuuden:
 
 ![kuva](https://github.com/user-attachments/assets/7a2ebeae-6ba3-4a67-b3bd-44a9f53a2218)
+
+Siirretty usr/bin/ -polkuun 
+![kuva](https://github.com/user-attachments/assets/527054a1-8525-4875-87e7-424aef22de49)
 
 
 # Tehtävä c) Lab
@@ -98,11 +98,4 @@ Annoin ohjelmalle suoritusoikeudet ja kokeilin sen toimivuuden:
 
 ## Lähteet
 
-Let's Encrypt. 2024. How It Works. Luettavissa: https://letsencrypt.org/how-it-works/
-
-Lange, N. 2024. Lego: Obtain a Certificate: Using an existing, running web server. Luettavissa;
-
-The Apache Software Foundation. 2025. Apache HTTP Server Version 2.4 [Official] Documentation: SSL/TLS Strong Encryption: How-To: Basic Configuration Example. Luettavissa: https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html#configexample 
-
-Metsola, S. https://www.satumetsola.com/ 
 
