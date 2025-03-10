@@ -67,22 +67,18 @@ Tässä vielä ylimääräinen demonstraatio virhetilanteesta, jossa lähdekoodi
 
 Kirsikkana kakun päälle loin monimutkaisimmalla tuntemallani kielellä skriptin: 
 
+![kuva](https://github.com/user-attachments/assets/1b1e3b8a-1dd1-4cd5-81d6-85c5b825cae6)
+
+
+![kuva](https://github.com/user-attachments/assets/a245bf77-32ca-4de3-a88b-e572b5b37fc6)
 
 
 
 
-
-
-
-
-
-# Tehtävä b) Citations.
-##### Tarkista ja tarvittaessa lisää lähdeviitteet kaikkiin raportteihisi h1 alkaen. Tarkista, että olet viitannut lähteisiin: tehtäväsivuun, kurssiin, muiden opiskelijoiden raportteihin, man-sivuihin, kotisivuihin ja ylipäänsä kaikkiin käyttämiisi lähteisiin. Lähdeviite tulee olla jokaisessa raportissa tai sivussa, jossa lähdettä on käytetty. Kaikki tehtävät perustuvat tämän sivun tehtävänantoihin, joten ainakin tämä viite on syytä löytyä. (Tästä alakohdasta ei tarvitse kirjoittaa vaiheittaista raporttia)
-
-# Tehtävä c) New command
+# Tehtävä b) New command
 ##### Laita Linuxiin uusi, itse tekemäsi komento niin, että kaikki käyttäjät voivat ajaa sitä.
 
-# Tehtävä d) Lab
+# Tehtävä c) Lab
 ##### Ratkaise vanha arvioitava laboratorioharjoitus soveltuvin osin.
 
 
