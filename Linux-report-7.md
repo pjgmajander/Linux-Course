@@ -30,6 +30,51 @@ Seuraavaksi päivitin paketinhallinnan ``sudo apt-get update`` ja ryhdyin asenta
 
 ![kuva](https://github.com/user-attachments/assets/71d54693-4de5-4a53-8cbb-43bbddd3bf8a)
 
+Loin polkuun /home/deepseeker/ kansion Hello World -skriptejä varten: ``mkdir hw``
+
+#### Py3
+
+Ensiksi loin kansioon helpoimman eli Python -skriptin: ``nano hw.py``
+
+Skriptin sisällöksi kirjoitin vain yhden rivin ``print("Hello World!")``
+
+![kuva](https://github.com/user-attachments/assets/8f31017e-6d64-49c6-aab2-76312edd6d86)
+
+Tässä lopputulos:
+
+![kuva](https://github.com/user-attachments/assets/4886b0a7-938d-4f0b-8949-b15293e599fd)
+
+#### Java
+
+Seuraavaksi oli vuorossa hivenen vaikeampi kieli eli Java: ``nano HloWrld.java``
+
+![kuva](https://github.com/user-attachments/assets/8b59956d-3584-4d22-ba96-48bb7098b0f0)
+
+Ennen skriptin eli lähdekoodin suorittamista se on käännettävä Java-kääntäjän (javac) avulla bittikoodiksi, jota tietokone ymmärtää. Tämä toteutetaan komennolla ``javac LuokanNimi.java``
+Komennon suorittamisen jälkeen hakemistoon ilmestyi bittikooditiedosto "HloWrld.class". Tarkastin uteliaisuudesta sen sisällön cat-komennon avulla.
+
+![kuva](https://github.com/user-attachments/assets/284a5a31-68e8-47d1-b7fe-e8ed8743827c)
+
+Skriptin suorittaminen tuotti halutun tuloksen:
+
+![kuva](https://github.com/user-attachments/assets/07f4413b-9413-4229-b50b-cb8bf40313a6)
+
+Tässä vielä ylimääräinen demonstraatio virhetilanteesta, jossa lähdekoodia ei ole käännetty Java-komentotulkille luettavaan muotoon (eli poistin aiemman bittikooditiedoston "HloWrld.class")
+
+![kuva](https://github.com/user-attachments/assets/75f66949-1518-4c38-9791-abe874226ad6)
+
+#### C
+
+Kirsikkana kakun päälle loin monimutkaisimmalla tuntemallani kielellä skriptin: 
+
+
+
+
+
+
+
+
+
 
 # Tehtävä b) Citations.
 ##### Tarkista ja tarvittaessa lisää lähdeviitteet kaikkiin raportteihisi h1 alkaen. Tarkista, että olet viitannut lähteisiin: tehtäväsivuun, kurssiin, muiden opiskelijoiden raportteihin, man-sivuihin, kotisivuihin ja ylipäänsä kaikkiin käyttämiisi lähteisiin. Lähdeviite tulee olla jokaisessa raportissa tai sivussa, jossa lähdettä on käytetty. Kaikki tehtävät perustuvat tämän sivun tehtävänantoihin, joten ainakin tämä viite on syytä löytyä. (Tästä alakohdasta ei tarvitse kirjoittaa vaiheittaista raporttia)
