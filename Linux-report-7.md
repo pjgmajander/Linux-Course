@@ -89,6 +89,7 @@ Annoin ohjelmalle suoritusoikeudet ``chmod a+x nC.sh`` ja kokeilin sen toimivuud
 ![kuva](https://github.com/user-attachments/assets/7a2ebeae-6ba3-4a67-b3bd-44a9f53a2218)
 
 Siirretty usr/bin/ -polkuun 
+
 ![kuva](https://github.com/user-attachments/assets/527054a1-8525-4875-87e7-424aef22de49)
 
 
