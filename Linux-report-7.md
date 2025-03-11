@@ -80,9 +80,19 @@ Tässä lopputulos:
 # Tehtävä b) New command
 ##### Laita Linuxiin uusi, itse tekemäsi komento niin, että kaikki käyttäjät voivat ajaa sitä.
 
-Ensiksi loin C-kielellä hauskan toiminnon
+Ensiksi loin bashilla ja C-kielellä hauskan toiminnon
 
 ![kuva](https://github.com/user-attachments/assets/8fe8cdcd-d383-4d89-90cb-d0fdfe52b8dc)
+
+Ohjelman selitys:
+-kysyy käyttäjältä merkkijonon komentorivissä
+-tallentaa merkkijonon muuttujaksi $name ja tekee samannimisen tiedoston käyttäjän kotihakemistoon: esim "testi" -> testi.c
+-ohjelma lisää $name muuttujan arvon eli alunperin syötetyn merkkijonon kovakoodattuun tekstiin mukaan
+-teksti putkitetaan esiasennetun lolcat -ohjelman läpi, jolloin siitä muuttuu värikäs tulostus
+-juuri luotu tiedosto käännetään bittikoodiksi, testi.c -> testi
+-$? -erikoismuuttujan avulla tarkistetaan onnistuiko edeltävä käännös
+-jos käännös onnistui, lopullinen ohjelma suoritetaan, minkä jälkeen sekä .c-lähdekoodi, että bittikoodi poistetaan
+-jos käännös epäonnistui, komentoriville tulostuu "Error."
 
 Annoin ohjelmalle suoritusoikeudet ``chmod a+x nC.sh`` ja kokeilin sen toimivuuden:
 
@@ -95,6 +105,11 @@ Siirretty usr/bin/ -polkuun eli nyt kaikki käyttäjät voivat suorittaa ohjelma
 
 # Tehtävä c) Lab
 ##### Ratkaise vanha arvioitava laboratorioharjoitus soveltuvin osin.
+
+Loin kansion report ja siihen tiedoston report. Annoin käyttäjälleni täydet oikeudet tiedostoon, ja muille en mitään
+
+![kuva](https://github.com/user-attachments/assets/67699f0d-a788-4ea2-b0e4-747e903236dd)
+
 
 
 ## Lähteet
