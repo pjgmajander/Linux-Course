@@ -85,14 +85,22 @@ Ensiksi loin bashilla ja C-kielellä hauskan toiminnon
 ![kuva](https://github.com/user-attachments/assets/8fe8cdcd-d383-4d89-90cb-d0fdfe52b8dc)
 
 Ohjelman selitys:
--kysyy käyttäjältä merkkijonon komentorivissä
--tallentaa merkkijonon muuttujaksi $name ja tekee samannimisen tiedoston käyttäjän kotihakemistoon: esim "testi" -> testi.c
--ohjelma lisää $name muuttujan arvon eli alunperin syötetyn merkkijonon kovakoodattuun tekstiin mukaan
--teksti putkitetaan esiasennetun lolcat -ohjelman läpi, jolloin siitä muuttuu värikäs tulostus
--juuri luotu tiedosto käännetään bittikoodiksi, testi.c -> testi
--$? -erikoismuuttujan avulla tarkistetaan onnistuiko edeltävä käännös
--jos käännös onnistui, lopullinen ohjelma suoritetaan, minkä jälkeen sekä .c-lähdekoodi, että bittikoodi poistetaan
--jos käännös epäonnistui, komentoriville tulostuu "Error."
+
+1. kysyy käyttäjältä merkkijonon komentorivissä
+
+2. tallentaa merkkijonon muuttujaksi "$name" ja tekee samannimisen tiedoston käyttäjän kotihakemistoon: esim "testi" -> testi.c
+   
+4. ohjelma lisää "$name" muuttujan arvon eli alunperin syötetyn merkkijonon kovakoodattuun tekstiin mukaan
+   
+6. teksti putkitetaan esiasennetun lolcat -ohjelman läpi, jolloin siitä muuttuu värikäs tulostus
+   
+8. juuri luotu tiedosto käännetään bittikoodiksi, testi.c -> testi
+   
+10. $? -erikoismuuttujan avulla tarkistetaan onnistuiko edeltävä käännös
+    
+12. jos käännös onnistui, lopullinen ohjelma suoritetaan, minkä jälkeen sekä .c-lähdekoodi, että bittikoodi poistetaan
+    
+14. jos käännös epäonnistui, komentoriville tulostuu "Error."
 
 Annoin ohjelmalle suoritusoikeudet ``chmod a+x nC.sh`` ja kokeilin sen toimivuuden:
 
