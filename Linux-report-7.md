@@ -84,7 +84,7 @@ Ensiksi loin bashilla ja C-kielellä hauskan toiminnon
 
 ![kuva](https://github.com/user-attachments/assets/8fe8cdcd-d383-4d89-90cb-d0fdfe52b8dc)
 
-Ohjelman selitys:
+#### Ohjelman selitys:
 
 1. kysyy käyttäjältä merkkijonon komentorivissä
 
@@ -101,6 +101,9 @@ Ohjelman selitys:
 12. jos käännös onnistui, lopullinen ohjelma suoritetaan, minkä jälkeen sekä .c-lähdekoodi, että bittikoodi poistetaan
     
 14. jos käännös epäonnistui, komentoriville tulostuu "Error."
+
+
+    
 
 Annoin ohjelmalle suoritusoikeudet ``chmod a+x nC.sh`` ja kokeilin sen toimivuuden:
 
