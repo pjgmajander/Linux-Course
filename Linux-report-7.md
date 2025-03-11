@@ -125,4 +125,9 @@ Loin kansion report ja siihen tiedoston report. Annoin käyttäjälleni täydet 
 
 ## Lähteet
 
+https://www.man7.org/linux/man-pages/man3/popen.3.html  
+
+https://www.baeldung.com/linux/shell-special-dollar-sign-variables
+
+
 
