@@ -129,5 +129,9 @@ https://www.man7.org/linux/man-pages/man3/popen.3.html
 
 https://www.baeldung.com/linux/shell-special-dollar-sign-variables
 
+https://computingforgeeks.com/install-oracle-java-openjdk-on-debian-linux/
+
+
+
 
 
